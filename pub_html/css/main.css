@@ -101,6 +101,7 @@ code{
   text-decoration: none;
 }
 
+
 #nav-currentPage li{
   display: block;
   text-decoration: none;
@@ -129,6 +130,14 @@ code{
 .nav-main a:hover, .nav-main a:focus,  #nav-currentPage a:hover,  #nav-currentPage a:focus{
   background-color: #e89686;
   border-bottom: 0px;
+}
+
+@media (max-width: 40em){
+  .nav-main li{
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      width: 100%;
+  }
 }
 
 /* text  links */
