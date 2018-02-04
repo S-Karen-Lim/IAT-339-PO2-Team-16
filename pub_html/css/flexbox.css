@@ -1,19 +1,29 @@
 .container {
+  display: -webkit-flex;
+  display: -ms-flex;
+
   display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+
   flex-wrap: wrap;
-  margin: 1em;
+
+  margin: 0rem 0rem 3rem 0rem;
 }
 
 .main-nav-container{
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
-  margin: 1em;
+  margin: 1rem;
 }
 
-
 .block {
-  flex-grow: 1;
+  flex: 1 1 auto;
   flex-basis: 5em;
   display: block;
+}
+
+.paragraph-block{
+  margin: 2rem 3rem;
 }

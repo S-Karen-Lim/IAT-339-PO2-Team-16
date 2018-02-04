@@ -14,55 +14,52 @@
 
 <body>
 
-<div class="container"> <!--Company Title & Subtitle Section Here-->
-  <div class="block">
-  <h1>Customo Coffee Company</h1>
-  <h2>We sell coffee here.</h2>
-  </div>
-</div>
-
-<div class="container"> <!--Main Navigation-->
-  <div class="block">
-    <div class="main-nav-container">
-      <nav class="main-nav-button">
-        <a href="#">About Coffee</a>
-      </nav>
-    </div>
-
-    <div class="main-nav-container"> <!--Purchase Products-->
-      <nav class="main-nav-button">
-        <a href="#">Purchase Products</a>
-      </nav>
-    </div>
-
-    <div class="main-nav-container"> <!--View Profile-->
-      <nav class="main-nav-button">
-        <a href="#">View Profile</a>
-      </nav>
-    </div>
-
-
-    <div class="main-nav-container"> <!--Contact Us-->
-      <nav class="main-nav-button">
-        <a href="#">Contact Us</a>
-      </nav>
-    </div>
-    </div>
+<section id="section-index">
+  <div class="block"> <!--Company Title & Subtitle        1 -->
+    <h1>Customo Coffee Company</h1>
+    <h2>We sell coffee here.</h2>
   </div>
 
+  <div class=" block main-nav-container"> <!--Main Navigation container   2-->
+      <div class="block"> <!-- coffee whatt?? -->
+        <!-- main-nav-container -->
+        <nav class="main-nav-button">
+          <a href="#">About Coffee</a>
+        </nav>
+      </div>
 
-  <div class="container"> <!--Learn About Us Section-->
-    <div class="block"> <!--Learn About Us-->
-      <nav>
-        <a href="#">Learn About Us</a>
-      </nav>
-    </div>
+      <div class="block "> <!--Purchase Products-->
+        <nav class="main-nav-button">
+          <a href="#">Purchase Products</a>
+        </nav>
+      </div>
+
+      <div class="block "> <!--View Profile-->
+        <nav class="main-nav-button">
+          <a href="#">View Profile</a>
+        </nav>
+      </div>
+
+      <div class="block"> <!-- Contact Us-->
+        <nav class="main-nav-button">
+          <a href="#">Contact Us</a>
+        </nav>
+      </div>
+    </div> <!-- closes the nav container -->
+
+  <div class="block learn-about-us"> <!--Learn About Us       3-->
+    <nav>
+      <a href="#section-aboutus">Learn About Us</a>
+    </nav>
   </div>
 
+</section>
 
 
-<!-- ABOUT US SECTION /////////////////////////////////////////////////////////////////////// -->
-<div class="container">
+
+
+  <!-- ABOUT US SECTION /////////////////////////////////////////////////////////////// -->
+<section id="section-aboutus">
 
     <h2>About Us</h2>
 
@@ -78,17 +75,25 @@
       </div>
     </div>
 
-    <img src="img/aboutuscoffee1.jpeg" class="aboutUs-imgs" alt="our company atmosphere in an image" />
+    <img src="img/aboutuscoffee1.jpeg" class="block aboutUs-imgs" alt="our company atmosphere in an image" />
 
-    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.</p>
-
-    <img
-
+    <div class="block paragraph-block">
+      <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.</p>
     </div>
 
-  </div>
+    <!-- <img -->
 
-</div>
+</section>
+
+
+<section class="container section-footer">
+  <!-- FOOTER ////////////////////////////////////////////////////////////////////// -->
+    <nav class="main-nav-container">
+          <a class="block" href="#">Home</a>
+          <a class="block" href="#">About Us</a>
+          <a class="block" href="#">Learn about Coffee</a>
+    </nav>
+</section>
 
 </body>
 
