@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   display: -webkit-flex;
   display: -ms-flex;
@@ -27,3 +28,25 @@
 .paragraph-block{
   margin: 2rem 3rem;
 }
+=======
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.main-nav-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+
+}
+
+
+.block {
+  flex-grow: 1;
+  flex-basis: 5em;
+  display: block;
+}
+>>>>>>> working_index
