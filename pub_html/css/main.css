@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Header and body styling */
 
 h1 {
@@ -35,3 +36,13 @@ p, li{
   height: auto;
   margin: 1rem 0rem;
 }
+=======
+body {
+
+}
+
+.main-nav-button {
+  text-align: left;
+  margin: 1rem;
+}
+>>>>>>> working_index

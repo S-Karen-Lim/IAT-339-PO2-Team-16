@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+.main-nav-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 1em;
+}
+
+
+.block {
+  flex-grow: 1;
+  flex-basis: 5em;
+  display: block;
+}
