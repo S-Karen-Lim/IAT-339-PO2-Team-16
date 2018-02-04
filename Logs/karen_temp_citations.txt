@@ -3,3 +3,8 @@ Photo by Jessica Lewis from Pexels https://www.pexels.com/photo/coffee-cup-drink
 
 About us coffee image 1
 Photo by Chevanon Photography from Pexels https://www.pexels.com/photo/close-up-of-hand-holding-coffee-cup-302902/
+
+
+code help
+background image:
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-size#Values

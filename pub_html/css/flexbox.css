@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container {
   display: -webkit-flex;
   display: -ms-flex;
@@ -28,7 +28,7 @@
 .paragraph-block{
   margin: 2rem 3rem;
 }
-=======
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -39,8 +39,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-top: 1.5rem;
-
+  margin-top: 1rem;
 }
 
 
@@ -49,4 +48,7 @@
   flex-basis: 5em;
   display: block;
 }
->>>>>>> working_index
+
+section{
+  padding: 5rem 4rem;
+}
