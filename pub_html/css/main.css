@@ -1,7 +1,10 @@
 
 /* Header and body styling */
 body {
-font-family: 'Source Sans Pro', Verdana, sans-serif;
+font-family: Helvetica, Verdana, sans-serif;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 
 h1 {
@@ -31,7 +34,7 @@ p, li{
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 0.5px;
-  color: rgb(150, 150, 150);
+  color: rgb(100, 100, 100);
 }
 
 /* index styling */
@@ -90,7 +93,6 @@ p, li{
   vertical-align: text-top;
   padding: 0.3rem 0.7rem;
   margin: 0.5rem 1rem;
-  background-color: transparent;
   transition: 0.5s ease-out;
   color: white;
 }
@@ -116,7 +118,6 @@ p, li{
 
 .main-nav-button a:hover, .nav-main-button a:focus, .nav-button-black a:hover, .nav-button-black a:focus {
   background-color: #e89686;
-  border-bottom: 0px;
 }
 
 /* footer styling ////////////////////////////////////////// */
