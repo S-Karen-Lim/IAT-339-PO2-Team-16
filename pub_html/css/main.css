@@ -120,6 +120,47 @@ p, li{
   background-color: #e89686;
 }
 
+/*Form box found in contact//////////////////////////////*/
+#greybox {
+  background-color: #e2e2e2;
+  padding: 1.5rem;
+}
+
+.subheader3 {
+  display: block;
+  text-align: left;
+  letter-spacing: 0.35rem;
+  color: #606060;
+  font-size: 12px;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+.contact-form {
+  padding: .5rem;
+  margin: .5rem;
+}
+
+#subject-options{
+  padding: .5rem;
+  margin: .5rem;
+  color: #606060;
+  letter-spacing: .075rem;
+}
+
+.subject-options-style{
+  color: #909090;
+}
+
+.message-box {
+  padding: .2rem;
+  margin: .5rem;
+  color: #606060;
+  text-align: left;
+  width: 100%;
+  min-height: 7.5rem;
+}
+
 /* footer styling ////////////////////////////////////////// */
 .section-footer{
 

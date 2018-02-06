@@ -31,12 +31,37 @@
   </div>
   </section>
 
-  <section>
-      <p>add form here</p>
+  <section> <!-- Form goes here-->
 
-  </section>
+    <div class="container">
 
+        <div id="greybox">
+          <label class="subheader3">FIRST NAME</label>
+          <input type="text" name="firstname" placeholder="Your first name.." class="contact-form"/>
+          <label class="subheader3">LAST NAME</label>
+          <input type="text" name="lastname" placeholder="Your last name.." class="contact-form"/>
+        </div>
 
+        <div id="greybox">
+          <label class="subheader3">EMAIL ADDRESS</label>
+          <input type="text" name="email" placeholder="Your email address.." class="contact-form"/>
+          <label class="subheader3">SUBJECT:</label>
+          <select id="subject-options"> <!--This will be for our drop down selector for paper sizes-->
+            <option class="subject-options-style" value="letter">purchase inquiry</option>
+            <option class="subject-options-style" value="legal">about the company</option>
+            <option class="subject-options-style" value="tabloid">about our coffee</option>about our coffee</option>
+            <option class="subject-options-style" value="tabloid">want to parnter?</option>
+            <option class="subject-options-style" value="tabloid">other</option>
+          </select>
+        </div>
+    </div>
+
+    <div class="container">
+      <div id="greybox">
+        <label class="subheader3">DETAILS</label>
+        <textarea class="message-box">write your message here...</textarea>
+      </div>
+    </div>
 
 
 </body>
