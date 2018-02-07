@@ -1,0 +1,34 @@
+/* styling for the product feature page */
+.section-product-featured{
+  padding: 3rem 0rem;
+  display:
+}
+
+.section-product-featured .block{
+  align-content: center;
+  margin:0.5rem;
+}
+
+.feature-heading{
+  width: 20rem;
+}
+
+.customize-button{
+  font-size: 1.1rem;
+  padding: 1rem 0rem;
+  margin: 2rem 0rem;
+  display: block;
+}
+
+.feature-coffee-block{
+  height: 30rem;
+  width: 10rem;
+  display: inline-block;
+}
+
+.feature-coffee-block img{
+  height: inherit;
+  width: inherit;
+  object-position: center;
+  object-fit: cover;
+}
