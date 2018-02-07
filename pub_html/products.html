@@ -7,35 +7,85 @@
   <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
   <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/productpages.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,700,900" rel="stylesheet">
-  <title>Contact Us | Customo Coffee</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <title>Browse Products | Customo Coffee</title>
 </head>
 
 <body>
   <!-- HEADER // -->
   <section class="section-header">
-    <div class="container" id="nav-header-container">
-      <div class="block" id="nav-header-company">
-        <h1><a href="index.html">CC</a></h1>
-      </div>
-      <div class="block-2" id="nav-main-container">
-        <nav class="nav-main container" id="nav-ul-container">
-            <ul class="nav-header">
-              <li><a href="about-coffee.html">OUR COFFEE</a></li>
-              <li><a href="products.html" class="nav-active">PRODUCTS</a></li>
-              <li><a href="profile.html">PROFILE</a></li>
-              <li><a href="contact.html">CONTACT US</a></li>
-            </ul>
+    <div class="container">
+      <div class="block">
+        <nav class="nav-main container">
+            <div class="nav-left block">
+                <a href="about-coffee.html">COF</a>
+                <a href="products.html" class="nav-active">BUY</a>
+            </div>
+            <div class="nav-center block">
+                <a href="index.html" id="nav-home">Customo Coffee<i></i></a>
+            </div>
+            <div class="nav-right block">
+                <a href="contact.html">SUP</a>
+                <a href="my-cart.html" id="nav-my-cart">CART</a>
+            </div>
         </nav>
       </div>
   </div>
   </section>
 
-  <section>
-      <p>add product listing here</p>
+  <section class="section-product-featured container">
 
-      <p>make thumbnails clickable but lead to same page</p>
+      <!-- <p>add product listing here</p>
 
+      <p>make thumbnails clickable but lead to same page</p> -->
+
+
+        <div class="block feature-heading">
+            <h2>Purchase Coffee</h2>
+          <p>
+            We work to always bring you the best of our coffee. <br>
+            Here are some new featured roasts from around the world for you to try.
+          </p>
+          <a href="#" class="nav-button">Shop our Coffee Catalogue</a>
+          <a href="#" class="nav-button customize-button">Customize your own coffee bag</a>
+        </div>
+
+
+      <div class="block container"> <!-- holds images -->
+          <div class="block feature-coffee-block">             <!-- feature coffee 1 -->
+            <img src="img/feature_bag.png" alt="feature coffee: sample blend 1">
+            <figcaption class="feature-coffee-caption">
+              <p>Feature Coffee #1</p>
+              <a href="featured-product-1.html" class="goto-productdetails">See more</a>
+            </figcaption>
+          </div>
+
+          <div class="block feature-coffee-block">            <!-- feature coffee 2 -->
+            <img src="img/feature_bag.png" alt="feature coffee: sample blend 2">
+            <figcaption class="feature-coffee-caption">
+              <p>Feature Coffee #2</p>
+              <a href="featured-product-1.html" class="goto-productdetails">See more</a>
+            </figcaption>
+          </div>
+
+        <div class="block feature-coffee-block">            <!-- feature coffee 3 -->
+          <img src="img/feature_bag.png" alt="feature coffee: sample blend 3">
+          <figcaption class="feature-coffee-caption">
+            <p>Feature Coffee #3</p>
+            <a href="featured-product-1.html" class="goto-productdetails">See more</a>
+          </figcaption>
+        </div>
+
+        <div class="block feature-coffee-block">            <!-- feature coffee 4 -->
+          <img src="img/feature_bag.png" alt="feature coffee: sample blend 4">
+          <figcaption class="feature-coffee-caption">
+            <p>Feature Coffee #4</p>
+            <a href="featured-product-1.html" class="goto-productdetails">See more</a>
+          </figcaption>
+        </div>
+      </div>
   </section>
 
 

@@ -6,62 +6,64 @@
   padding: 0;
 }
 
-#nav-main-container {
-    /* weird grey box*/
-    margin: 0;
-    padding-top: 2rem;
-    padding-right: 1rem;
+.nav-main{
+  margin: 0;
 }
 
-#nav-ul-container{
-  margin: 1rem;
+.nav-left{
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.nav-right{
   float: right;
+  text-align: right;
 }
 
-#nav-header-company{
-  margin: 2.5rem 0rem 0rem 0rem;
-}
-#nav-header-company h1{
-  font-size: 1.6rem;
-  letter-spacing: 2.8px;
-  margin-bottom: 0rem;
+.nav-center{
+  margin: auto;
+  text-align: center;
 }
 
-#nav-header-company p{
-  margin: 0;
-}
-
-#nav-header-company a, #nav-header-company a:visited{
-  color: #e89686;
-  text-decoration: none;
-}
-
-#nav-header-container{
-  margin: 0;
-}
-
-.nav-header li{
-  display:inline;
-  min-width: 500px
-}
-
-.nav-header li a{
+.nav-main a{
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: uppercase;
   letter-spacing: 1.3px;
-  vertical-align: text-top;
   padding: 0.3rem 0.7rem;
   margin: 0rem 0.2rem;
   transition: 0.5s ease-out;
   color: black;
 }
 
-.nav-header li a:hover, .nav-header li a:focus{
+.nav-main a:hover, .nav-header a:focus{
   background-color: #e89686;
 }
 
 .nav-active{
   border: 2px solid #e89686;
 }
+
+#nav-home{
+  font-size: 1.1rem;
+  color: #e89686;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+}
+
+#nav-home:hover{
+  transition: none;
+  background-color: #eeeeee;
+  font-size: 1.1rem;
+  color: #e89686;
+  margin: auto;
+  width: 50%;
+}
+
+
+/* references
+
+https://www.w3schools.com/css/css_align.asp
+
+ */
