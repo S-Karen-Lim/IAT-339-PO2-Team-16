@@ -11,3 +11,5 @@ https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
 code help
 background image:
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-size#Values
+text overlay on hover in product catalogue:
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
