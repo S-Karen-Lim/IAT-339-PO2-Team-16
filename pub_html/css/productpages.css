@@ -1,9 +1,9 @@
 /* styling for the product feature page and product catalogue sections ////////////////////// */
-.section-product-featured, .section-product-catalogue{
+.section-product-featured, .section-product-catalogue, .product-details-container{
   padding: 3rem 1rem;
 }
 
-.section-product-featured .block, .section-product-catalogue .block{
+.section-product-featured .block, .section-product-catalogue .block, .product-details-container .block{
   align-content: center;
   margin:0.5rem;
 }
@@ -16,11 +16,11 @@
   width: 100%;
 }
 
-.customize-button{
+/* .customize-button{
   font-size: 1.1rem;
   padding: 1rem 0rem;
   margin: 2rem 0rem;
-}
+} */
 
 .feature-coffee-block{
   height: 30rem;
@@ -72,3 +72,12 @@
 }
 
 /* product page detail styling ///////////////////////////////////////// */
+
+.detail-product-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-coffee-caption p{
+    margin: 2rem 0rem;
+}
