@@ -1,23 +1,25 @@
 /* styling for the product feature page */
-.section-product-featured{
-  padding: 3rem 0rem;
-  display:
+.section-product-featured, .section-product-catalogue{
+  padding: 3rem 1rem;
 }
 
-.section-product-featured .block{
+.section-product-featured .block, .section-product-catalogue .block{
   align-content: center;
   margin:0.5rem;
 }
 
-.feature-heading{
-  width: 20rem;
+.feature-heading, .catalogue-filter{
+  width: 10rem;
+}
+
+#header-product-catalogue{
+  width: 100%;
 }
 
 .customize-button{
   font-size: 1.1rem;
   padding: 1rem 0rem;
   margin: 2rem 0rem;
-  display: block;
 }
 
 .feature-coffee-block{
@@ -26,9 +28,45 @@
   display: inline-block;
 }
 
-.feature-coffee-block img{
+.catalogue-coffee-block{
+  padding: 1rem;
+}
+
+.catalogue-coffee-block, .product-image-container{
+  height: 20rem;
+  width: 13rem;
+  display: inline-block;
+  position: relative;
+}
+
+.feature-coffee-block img, .product-image-container img{
   height: inherit;
   width: inherit;
   object-position: center;
   object-fit: cover;
+}
+
+/* hover on image from: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+
+.product-image-container:hover img {
+  opacity: 0.3;
+}
+
+.product-image-container:hover .text-overlay-product {
+  opacity: 1;
+}
+
+.text-overlay-product a {
+  color: rgb(100, 100, 100);
+}
+
+.text-overlay-product{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }

@@ -35,6 +35,20 @@ p, li{
   color: rgb(100, 100, 100);
 }
 
+.default-button{
+  padding: 0.5rem;
+  margin: 0.1rem;
+  text-decoration: none;
+  border: 1px solid rgb(100, 100, 100);
+  color: rgb(100, 100, 100); 
+}
+
+.default-button:hover, .default-button:focus{
+  background-color: rgb(100, 100, 100);
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+}
+
 /* index styling */
 #section-index {
   background-image: url("../img/index_background1.jpeg");
