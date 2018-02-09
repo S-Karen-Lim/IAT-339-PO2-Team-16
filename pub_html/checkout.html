@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
+  <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <title>Checkout | Customo Coffee</title>
+</head>
+
+<body>
+  <!-- HEADER // -->
+  <section class="section-header">
+    <div class="container">
+      <div class="block">
+        <nav class="nav-main container">
+            <div class="nav-left block">
+                <a href="about-coffee.html">ABOUT</a>
+                <a href="products.html">SHOP</a>
+                <a href="updates.html">UPDATES</a>
+            </div>
+            <div class="nav-center block">
+                <a href="index.html" id="nav-home">Customo Coffee</a>
+            </div>
+            <div class="nav-right block">
+                <a href="contact.html">SUPPORT</a>
+                <a href="my-cart.html" id="nav-my-cart">CART</a>
+            </div>
+        </nav>
+      </div>
+  </div>
+  </section>
+
+  <section class="section-checkout"> <!-- Form goes here-->
+
+    <h2>Billing Information</h2>
+    <div class="container checkout-info-container">
+        <div class="block-2">
+            <h3>Billing Details</h3>
+            <label class="subheader3">FIRST AND LAST NAME</label>
+            <input type="text" name="first-and-last-name" class="contact-form"/>
+            <label class="subheader3">EMAIL ADDRESS</label>
+            <input type="text" name="email address" class="contact-form"/>
+            <label class="subheader3">STREET ADDRESS</label>
+            <input type="text" name="street"class="contact-form"/>
+            <div class="container margin-none">
+                <div class="block checkout-input">
+                    <label class="subheader3">CITY</label>
+                    <input type="text" name="city" class="contact-form"/>
+                </div>
+                <div class="block checkout-input">
+                    <label class="subheader3">PROVINCE</label>
+                    <input type="text" name="province" class="contact-form"/>
+                </div>
+                <div class="block checkout-input">
+                    <label class="subheader3">ZIP</label>
+                    <input type="text" name="postalcode" class="contact-form"/>
+                </div>
+            </div>
+
+            <h3>Shipping Address</h3>
+            <label class="subheader3">FIRST AND LAST NAME</label>
+            <input type="text" name="first-and-last-name" class="contact-form"/>
+            <label class="subheader3">PHONE NUMBER</label>
+            <input type="text" name="phone-name" class="contact-form"/>
+            <label class="subheader3">STREET ADDRESS</label>
+            <input type="text" name="street"class="contact-form"/>
+            <div class="container margin-none form-container">
+                <div class="block checkout-input">
+                    <label class="subheader3">CITY</label>
+                    <input type="text" name="city" class="contact-form"/>
+                </div>
+                <div class="block checkout-input">
+                    <label class="subheader3">PROVINCE</label>
+                    <input type="text" name="province" class="contact-form"/>
+                </div>
+                <div class="block checkout-input">
+                    <label class="subheader3">ZIP</label>
+                    <input type="text" name="postalcode" class="contact-form"/>
+                </div>
+            </div>
+          </div>
+
+        <div class="block-2">
+            <h3>Credit Card Details</h3>
+            <label class="subheader3">NAME ON CARD</label>
+            <input type="text" name="name-on-card" class="contact-form"/>
+            <label class="subheader3">CREDIT CARD NUMBER</label>
+            <input type="text" name="credit-card-number" class="contact-form"/>
+            <div class="container margin-none form-container">
+                <div class="block checkout-input">
+                  <label class="subheader3">EXPIRY DATE</label>
+                  <input type="text" name="expiry-date" class="contact-form"/>
+                </div>
+                <div class="block checkout-input">
+                  <label class="subheader3">CVV</label>
+                  <input type="text" name="cvv"class="contact-form"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="block proceed-checkout-container">
+            <h3>Order Summary</h3>
+                <table class="cart-summary-table">
+                    <thead>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td>Subtotal</td>
+                          <td>$13.98</td>
+                      </tr>
+                      <tr>
+                          <td>Shipping &amp; Handling</td>
+                          <td>$2.99</td>
+                      </tr>
+                      <tr>
+                          <td>Tax</td>
+                          <td>$0.35</td>
+                      </tr>
+                      <tr>
+                          <td>Total</td>
+                          <td id="cart-total">$17.32</td>
+                      </tr>
+                    </tbody>
+                </table>
+        </div>
+      </div>
+  </section>
+
+  <section class="button-nav">
+    <div class="container" id="checkout-button-container">
+      <div class="block">
+          <a href="my-cart.html" class="default-button">Back to My Cart</a>
+      </div>
+      <div class="block">
+          <a href="receipt.html" class="default-button">Finish</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+
+</html>

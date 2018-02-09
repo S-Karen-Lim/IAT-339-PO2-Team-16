@@ -19,14 +19,15 @@
       <div class="block">
         <nav class="nav-main container">
             <div class="nav-left block">
-                <a href="about-coffee.html">COF</a>
-                <a href="products.html">BUY</a>
+                <a href="about-coffee.html">ABOUT</a>
+                <a href="products.html">SHOP</a>
+                <a href="updates.html">UPDATES</a>
             </div>
             <div class="nav-center block">
                 <a href="index.html" id="nav-home">Customo Coffee</a>
             </div>
             <div class="nav-right block">
-                <a href="contact.html" class="nav-active">SUP</a>
+                <a href="contact.html" class="nav-active">SUPPORT</a>
                 <a href="my-cart.html" id="nav-my-cart">CART</a>
             </div>
         </nav>
@@ -34,38 +35,42 @@
   </div>
   </section>
 
-  <section> <!-- Form goes here-->
+  <section class="section-contact-us"> <!-- Form goes here-->
 
+    <h2>Contact us</h2>
     <div class="container">
-
-        <div id="greybox">
-          <label class="subheader3">FIRST NAME</label>
-          <input type="text" name="firstname" placeholder="Your first name.." class="contact-form"/>
-          <label class="subheader3">LAST NAME</label>
-          <input type="text" name="lastname" placeholder="Your last name.." class="contact-form"/>
+        <div class="block">
+          <div class="form-box">
+            <select id="subject-options" class="contact-form"> <!--This will be for our drop down selector for paper sizes-->
+              <option selected disabled>Select one</option>
+              <option class="subject-options-style" value="letter">Purchase inquiry</option>
+              <option class="subject-options-style" value="legal">About the company</option>
+              <option class="subject-options-style" value="tabloid">About our coffee</option>
+              <option class="subject-options-style" value="tabloid">Want to partner?</option>
+              <option class="subject-options-style" value="tabloid">Other</option>
+            </select>
+            <label class="subheader3">FIRST NAME</label>
+            <input type="text" name="firstname" class="contact-form"/>
+            <label class="subheader3">LAST NAME</label>
+            <input type="text" name="lastname" class="contact-form"/>
+            <label class="subheader3">EMAIL ADDRESS</label>
+            <input type="text" name="email"class="contact-form"/>
+            <label class="subheader3">PHONE NUMBER:</label>
+            <input type="text" name="phone" class="contact-form"/>
+          </div>
         </div>
-
-        <div id="greybox">
-          <label class="subheader3">EMAIL ADDRESS</label>
-          <input type="text" name="email" placeholder="Your email address.." class="contact-form"/>
-          <label class="subheader3">SUBJECT:</label>
-          <select id="subject-options"> <!--This will be for our drop down selector for paper sizes-->
-            <option class="subject-options-style" value="letter">purchase inquiry</option>
-            <option class="subject-options-style" value="legal">about the company</option>
-            <option class="subject-options-style" value="tabloid">about our coffee</option>about our coffee</option>
-            <option class="subject-options-style" value="tabloid">want to parnter?</option>
-            <option class="subject-options-style" value="tabloid">other</option>
-          </select>
+        <div class="block-2 form-box" id="contact-form-right">
+          <div>
+            <label class="subheader3">DETAILS</label>
+            <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
+          </div>
+          <div id="contact-form-buttons">
+              <button id="resetInput" class="default-button">Reset</button>
+              <button id="submitInput" class="default-button">Submit</button>
+          </div>
         </div>
     </div>
-
-    <div class="container">
-      <div id="greybox">
-        <label class="subheader3">DETAILS</label>
-        <textarea class="message-box">write your message here...</textarea>
-      </div>
-    </div>
-
+  </section>
 
 </body>
 

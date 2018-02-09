@@ -27,12 +27,26 @@ h3 {
   letter-spacing: 0.1rem;
 }
 
-p, li{
+p, li, td{
   font-family: 'Lato', Verdana, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 0.5px;
   color: rgb(100, 100, 100);
+}
+
+.default-button{
+  padding: 0.5rem;
+  margin: 0.1rem;
+  text-decoration: none;
+  border: 1px solid rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
+}
+
+.default-button:hover, .default-button:focus{
+  background-color: rgb(100, 100, 100);
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
 }
 
 /* index styling */
@@ -119,24 +133,32 @@ p, li{
 }
 
 /*Form box found in contact//////////////////////////////*/
-#greybox {
-  background-color: #e2e2e2;
+.form-box {
+  background-color: #d2e3ed;
   padding: 1.5rem;
 }
 
 .subheader3 {
   display: block;
   text-align: left;
-  letter-spacing: 0.35rem;
-  color: #606060;
+  letter-spacing: 0.15rem;
+  color: #5a5a5a;
   font-size: 12px;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   font-weight: normal;
 }
 
 .contact-form {
-  padding: .5rem;
-  margin: .5rem;
+  padding: .3rem .5rem;
+  margin: 0.1rem 0.9rem;
+  width: 90%;
+  border:none;
+  border-radius: 5px;
+}
+
+.section-contact-us{
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 #subject-options{
@@ -155,6 +177,163 @@ p, li{
   margin: .5rem;
   color: #606060;
   text-align: left;
-  width: 100%;
+  width: 90%;
   min-height: 7.5rem;
+  border-radius: 5px;
+}
+
+#contact-form-right{
+  position: relative;
+  overflow: hidden;
+}
+
+#contact-form-buttons{
+
+}
+
+#resetInput{
+  display: inline-block;
+  -webkit-appearance:none;
+  min-width: 30%;
+  max-width: 10rem;
+  background-color: #ffffff;
+}
+
+#resetInput:hover, #resetInput:focus{
+  background-color: #e89686;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+}
+
+#submitInput{
+  display: inline-block;
+  -webkit-appearance:none;
+  min-width: 30%;
+  max-width: 10rem;
+  background-color: #ffffff;
+}
+
+  #submitInput:hover, #submitInput:focus{
+    background-color: #87CD87;
+  }
+
+#our-coffee{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+#our-coffee p{
+
+}
+
+.section-my-cart{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.cart-image-container{
+  height: auto;
+  width: 12rem;
+}
+
+.cart-image-container img{
+  height: inherit;
+  width: inherit;
+  object-position: center;
+  object-fit: cover;
+}
+
+.cart-product-info{
+  float: right;
+}
+
+.cart-product-container table{
+  width: 100%;
+}
+
+.cart-product-container th{
+  border-bottom: 0.05rem solid #e89686;
+  text-align: left;
+}
+
+.cart-product-container td{
+  border-bottom: 0.05rem solid #e89686;
+}
+
+.cart-quantity-selector {
+  padding: .3rem .5rem;
+  margin: 0.1rem;
+  width: 90%;
+  border:none;
+  border-radius: 5px;
+}
+
+.proceed-checkout-container{
+  background-color: #e3e3e5;
+  padding: 0 1rem;
+  height: auto;
+}
+
+.proceed-checkout-container td {
+  border-bottom: none;
+  padding-bottom: 1rem;
+}
+
+.proceed-checkout-container tr {
+
+}
+
+#cart-total {
+  padding-top: 0.8rem;
+  border-top: 1px solid black;
+}
+
+.proceed-checkout-container table{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#checkout-button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#checkout-button a{
+  background-color: #ffffff;
+  margin-right: 1rem;
+}
+
+#checkout-button a:hover, #checkout-button a:focus{
+  background-color: rgb(100, 100, 100);
+  border: rgb(100, 100, 100);
+  margin-right: 1rem;
+}
+
+.section-checkout{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.checkout-input input{
+  width: 80%;
+  margin-right: 0;
+  padding: .2rem .2rem;
+}
+
+.billing-input {
+  margin-top: 0;
+}
+
+.form-container{
+  width: 90%;
+}
+
+.checkout-info-container{
+    background-color: #d2e3ed;
+    padding: 1rem;
+}
+
+#checkout-button-container{
+  width: 90%;
+  margin: 0 auto;
 }

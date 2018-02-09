@@ -32,6 +32,12 @@
   display: block;
 }
 
+.block-3 {
+  flex: 3 1 auto;
+  flex-basis: 5em;
+  display: block;
+}
+
 .paragraph-block{
   margin: 2rem 3rem;
 }
@@ -53,3 +59,18 @@
 /* section{
   padding: 5rem 4rem;
 } */
+
+/* product page main */
+
+.catalogue-container{
+  align-content: space-around;
+  width:
+}
+
+.margin-none{
+  margin: 0;
+}
+
+.pull-right{
+  float: right;
+}
