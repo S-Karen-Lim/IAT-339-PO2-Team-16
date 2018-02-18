@@ -49,6 +49,18 @@
   margin-top: 1rem;
 }
 
+#section-index{
+  align-items: center;
+}
+
+.block-learnAboutUs{
+  align-self: center;
+}
+
+.main-nav-container{
+  align-self: auto;
+}
+
 
 .block {
   flex-grow: 1;

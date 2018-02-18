@@ -13,6 +13,7 @@
   background-blend-mode: lighten;
   background-clip: border-box;
   background-size: cover;
+  color: white;
 }
 
 .feature-heading, .catalogue-filter{
