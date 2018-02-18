@@ -1,7 +1,4 @@
 /* styling for the product feature page and product catalogue sections ////////////////////// */
-.section-product-featured, .section-product-catalogue, .product-details-container{
-  padding: 3rem 1rem;
-}
 
 .section-product-featured .block, .section-product-catalogue .block, .product-details-container .block{
   align-content: center;
@@ -16,11 +13,11 @@
   color: white;
 }
 
-.feature-heading, .catalogue-filter{
+.feature-heading{
   width: 10rem;
 }
 
-.feature-heading{
+.feature-heading p, .feature-heading a, .feature-coffee-block a, .feature-coffee-block p{
   color: white;
 }
 

@@ -1,5 +1,8 @@
 index background
 Photo by Jessica Lewis from Pexels https://www.pexels.com/photo/coffee-cup-drink-espresso-593333/
+or
+Photo by freestocks.org from Pexels https://www.pexels.com/photo/person-holding-black-ornament-while-shaping-metal-component-226633/
+
 
 About us coffee image 1
 Photo by Chevanon Photography from Pexels https://www.pexels.com/photo/close-up-of-hand-holding-coffee-cup-302902/
@@ -10,6 +13,16 @@ product page:
 
   - product page feature coffee 1
   https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
+
+  - feature coffee 1: Cultura Coffee Roasters by Levi Huddleston
+  https://www.behance.net/gallery/15888355/Cultura-Coffee-Roasters
+
+  - feature coffee 2: Balzac's Coffee by Chad Roberts design.
+  http://www.thedieline.com/blog/2012/10/17/balzacs-coffee-roasters.html
+
+  -feature coffee 3:
+
+  -
 
 
 code help
