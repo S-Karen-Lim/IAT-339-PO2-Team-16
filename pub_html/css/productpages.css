@@ -8,6 +8,13 @@
   margin:0.5rem;
 }
 
+.section-product-featured{
+  background-image: url("../img/productPage_background1.jpeg");
+  background-blend-mode: lighten;
+  background-clip: border-box;
+  background-size: cover;
+}
+
 .feature-heading, .catalogue-filter{
   width: 10rem;
 }

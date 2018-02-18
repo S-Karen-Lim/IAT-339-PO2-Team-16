@@ -4,8 +4,12 @@ Photo by Jessica Lewis from Pexels https://www.pexels.com/photo/coffee-cup-drink
 About us coffee image 1
 Photo by Chevanon Photography from Pexels https://www.pexels.com/photo/close-up-of-hand-holding-coffee-cup-302902/
 
-product page feature coffee
-https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
+product page:
+  - product page background
+  Photo by Toni Cuenca from Pexels https://www.pexels.com/photo/caffeine-coffee-coffee-beans-roasted-585750/
+
+  - product page feature coffee 1
+  https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
 
 
 code help
