@@ -41,17 +41,23 @@
   padding: 1rem;
 }
 
-.catalogue-coffee-block, .product-image-container{
-  height: 20rem;
+/* fix thisssss//////////////////////////////////////////  */
+.catalogue-coffee-block{
+  height: auto;
   width: 13rem;
   display: inline-block;
-  position: relative;
+  /* position: relative; */
+}
+
+.product-image-container{
+  height: 20rem;
+  width: 13rem;
 }
 
 .feature-coffee-block img, .product-image-container img{
   height: inherit;
   width: inherit;
-  object-position: center;
+  object-position:top;
   object-fit: cover;
 }
 
