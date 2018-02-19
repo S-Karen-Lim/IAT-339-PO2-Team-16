@@ -11,7 +11,7 @@ product page:
   - product page background
   Photo by Toni Cuenca from Pexels https://www.pexels.com/photo/caffeine-coffee-coffee-beans-roasted-585750/
 
-  - product page feature coffee 1
+  - product page feature coffee sample
   https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
 
   - feature coffee 1: Cultura Coffee Roasters by Levi Huddleston
@@ -20,9 +20,25 @@ product page:
   - feature coffee 2: Balzac's Coffee by Chad Roberts design.
   http://www.thedieline.com/blog/2012/10/17/balzacs-coffee-roasters.html
 
-  -feature coffee 3:
+  -feature coffee 3: Bassett espresso
+  http://bassettespresso.com/our-coffee/
 
-  -
+  -feature coffee 4: Fernwood coffee by Glasfurd and Walker
+  https://fernwoodcoffee.com/collections/coffee/products/1936-espresso-new
+  https://www.behance.net/gallery/10180903/Fernwood-Coffee
+
+Coffee Catalogue:
+  - Quills Coffee: https://quillscoffee.com/collections/frontpage/products/papua-new-guinea-kunjin
+  - Abednego Colombian Coffee: http://abednegocoffee.com/product/colombia-coffee/
+  - Ripple Coffee: http://www.designwomb.com/work/ripple-coffee/#sthash.QU8qTZIP.qjtu
+  - Alabaster Coffee: https://www.trendhunter.com/trends/black-coffee-bags
+  - Roundsquare Roastery: https://fromupnorth.com/packaging-inspiration-1113-161ae01c1f20
+  - Jed's Coffee: http://lovelypackage.com/jeds-coffee-co/
+  - 49th Parallel Coffee French Roast: https://49thcoffee.com/products/organic-french-roast
+  - La Colombe, Monaco Roast: https://www.lacolombe.com/collections/darker/products/monaco?variant=6609492165
+
+
+
 
 
 code help
