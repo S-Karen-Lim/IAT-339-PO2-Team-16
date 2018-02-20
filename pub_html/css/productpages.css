@@ -87,6 +87,27 @@
 }
 
 /* product page detail styling ///////////////////////////////////////// */
+.container-imgs-product-detail{
+  width: 40rem;
+  margin-right: 0.3rem;
+}
+
+.img-product-detail{
+  width: auto;
+}
+
+.img-product-detail-side{
+  width: auto;
+}
+
+.img-product-detail img{
+  width: 100%;
+  min-width: 10rem;
+}
+
+.product-coffee-caption{
+  width: auto;
+}
 
 .detail-product-title{
     font-size: 2rem;
