@@ -1,1 +1,27 @@
-Created a second branch. Can you see this?
+putting old index navigation Here
+
+<div class=" block main-nav-container"> <!--Main Navigation container   2-->
+    <div class="block"> <!-- coffee whatt?? -->
+      <nav class="main-nav-button">
+        <a href="about-coffee.html">Our Coffee</a>
+      </nav>
+    </div>
+
+    <div class="block "> <!--Purchase Products-->
+      <nav class="main-nav-button">
+        <a href="products.html">Browse Products</a>
+      </nav>
+    </div>
+
+    <div class="block "> <!--View Profile-->
+      <nav class="main-nav-button">
+        <a href="">Updates</a>
+      </nav>
+    </div>
+
+    <div class="block"> <!-- Contact Us-->
+      <nav class="main-nav-button">
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </div> <!-- closes the nav container -->

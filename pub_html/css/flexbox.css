@@ -14,12 +14,6 @@
 
 }
 
-.main-nav-container{
-  display: flex;
-  justify-content: flex-end;
-  margin: 1rem;
-}
-
 .block {
   flex: 1 1 auto;
   flex-basis: 5em;
@@ -42,33 +36,36 @@
   margin: 2rem 3rem;
 }
 
+.margin-none{
+  margin: 0;
+}
+
+.pull-right{
+  float: right;
+}
+
+/* index and about us page //////////////////// */
+
 .main-nav-container{
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
   margin-top: 1rem;
+  right: 2rem;
+  padding: 1.5rem;
+}
+
+#section-index{
+  height: 95vh;
+  width: auto;
+  margin: auto 0rem;
+  padding: 1rem 2rem 1.5rem 3rem;
 }
 
 .block-learnAboutUs{
   align-self: center;
 }
 
-.main-nav-container{
-  align-self: auto;
-}
-
-
-.block {
-  flex-grow: 1;
-  flex-basis: 5em;
-  display: block;
-}
-
-/* section{
-  padding: 5rem 4rem;
-} */
-
-/* product page main */
+/* product page main ///////////////////////// */
 .section-product-featured{
   align-content: space-around;
   width: 90%;
@@ -95,12 +92,4 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.margin-none{
-  margin: 0;
-}
-
-.pull-right{
-  float: right;
 }
