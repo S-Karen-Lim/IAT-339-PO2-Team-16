@@ -252,14 +252,50 @@ position:relative;
     background-color: #87CD87;
   }
 
+
+.introduction_to_coffee {
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.coffee_roast {
+  color: #101010;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+
+.roasts_titles{
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #303030;
+  text-align: center;
+}
+
+.roast_paragraph{
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  color: #454545;
+  margin: 1.75rem;
+
+}
+
 #our-coffee{
   max-width: 70%;
   margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+#our-coffee h2{
+  color: #454545;
+  text-align: center;
 }
 
 #our-coffee p{
 
 }
+
 
 .section-my-cart{
   max-width: 80%;
