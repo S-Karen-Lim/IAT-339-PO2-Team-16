@@ -17,7 +17,7 @@
   width: 10rem;
 }
 
-.feature-heading p, .feature-heading a, .feature-coffee-block a, .feature-coffee-block p{
+.feature-heading p, .feature-coffee-block p{
   color: white;
 }
 
@@ -34,6 +34,7 @@
 .feature-coffee-block{
   height: 30rem;
   width: 10rem;
+  background-color: white;
   display: inline-block;
 }
 
