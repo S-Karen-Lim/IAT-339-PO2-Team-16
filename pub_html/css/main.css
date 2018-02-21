@@ -256,6 +256,12 @@ position:relative;
   font-size: 16px;
 }
 
+.products-hyperlink {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+}
 
 .coffee_roast {
   color: #101010;
