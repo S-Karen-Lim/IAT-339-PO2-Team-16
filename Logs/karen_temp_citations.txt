@@ -46,5 +46,25 @@ Coffee Catalogue:
 
   - text overlay on hover in product catalogue: https://www.w3schools.com/howto/howto_css_image_overlay.asp
 
+
+Feature Coffee page 1: Cultura
+  - http://www.culturacafe.ca/about/
+  - http://www.cultura.coffee/
+
+Feature Coffee page 2: Balzac
+  - http://www.balzacs.com/about/
+  - https://shop.balzacs.com/products/balzacs-blend-1
+  - http://www.balzacs.com/about/atwood-blend/
+  - http://www.balzacs.com/about/roast-guide/
+
+Featured Coffee Page 3: bassett
+  - http://bassettespresso.com/product/ethiopia-shakiso-washed/
+  - http://bassettespresso.com/wholesale/
+  
+Featured Coffee Page 4: Fernwood
+  - https://fernwoodcoffee.com/collections/coffee
+  - https://fernwoodcoffee.com/collections/coffee/products/1936-espresso-new
+
+
 Cart:
 https://stackoverflow.com/questions/18679020/border-around-tr-element-doesnt-show
