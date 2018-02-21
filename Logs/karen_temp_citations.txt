@@ -60,7 +60,7 @@ Feature Coffee page 2: Balzac
 Featured Coffee Page 3: bassett
   - http://bassettespresso.com/product/ethiopia-shakiso-washed/
   - http://bassettespresso.com/wholesale/
-  
+
 Featured Coffee Page 4: Fernwood
   - https://fernwoodcoffee.com/collections/coffee
   - https://fernwoodcoffee.com/collections/coffee/products/1936-espresso-new
