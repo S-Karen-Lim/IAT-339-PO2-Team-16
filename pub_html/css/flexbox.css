@@ -70,6 +70,11 @@
   margin: 0rem auto;
 }
 
+/* about coffee page ///////////////////////// */
+.about-coffee-block{
+  margin:1rem;
+}
+
 /* product page main ///////////////////////// */
 .section-product-featured{
   align-content: space-around;
