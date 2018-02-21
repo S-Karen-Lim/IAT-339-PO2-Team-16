@@ -1,6 +1,6 @@
 .section-header{
   margin: 0;
-  width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
@@ -38,16 +38,16 @@
 }
 
 .nav-main a:hover, .nav-header a:focus{
-  background-color: #e89686;
+  background-color: #c78b3c;
 }
 
 .nav-active{
-  border: 2px solid #e89686;
+  border: 2px solid #c78b3c;
 }
 
 #nav-home{
   font-size: 1.1rem;
-  color: #e89686;
+  color: #c78b3c;
   font-weight: 900;
   letter-spacing: 2.5px;
 }

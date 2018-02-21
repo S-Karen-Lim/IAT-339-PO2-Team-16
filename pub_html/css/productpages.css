@@ -87,26 +87,35 @@
 }
 
 /* product page detail styling ///////////////////////////////////////// */
-.container-imgs-product-detail{
-  width: 40rem;
-  margin-right: 0.3rem;
+.section-product-detail{
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.container-product-detail{
+  max-height: 80vh;
 }
 
 .img-product-detail{
-  width: auto;
+  min-height: 100%;
+  max-width: 30vw;
 }
 
 .img-product-detail-side{
-  width: auto;
+  max-width: 20%;
+  min-width: 10vw;
+  margin: 0rem 2rem;
 }
 
-.img-product-detail img{
+.img-product-detail img, .img-product-detail-side img{
   width: 100%;
-  min-width: 10rem;
+  margin-bottom: 2rem;
 }
 
 .product-coffee-caption{
-  width: auto;
+  min-width: 40%;
+  border-top: 2px solid #c78b3c;
+  margin-right: 2rem;
 }
 
 .detail-product-title{
@@ -115,5 +124,51 @@
 }
 
 .product-coffee-caption p{
+  font-size: 1rem;
     margin: 2rem 0rem;
+}
+
+/* Review section /////////////////////////////////////// */
+/* citation: star rating from codepen: https://codepen.io/jamesbarnett/pen/vlpkh */
+.rating {
+  border: none;
+  /* float: left; */
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 3rem;
+  /* font-family: FontAwesome; */
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+color: #c78b3c;
+ float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label {
+  color: #5a5a5a;
+   } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label {
+  color: #c78b3c;
+}
+
+.section-leave-review{
+  margin-top: 3rem;
 }

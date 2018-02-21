@@ -78,10 +78,6 @@
   margin-right: auto;
 }
 
-.product-details-container, .section-product-featured{
-  padding: 3rem 1rem;
-}
-
 .catalogue-filter{
   width: 10rem;
   margin: auto;
@@ -99,8 +95,7 @@
   margin-right: auto;
 }
 
-/* Product Details Page ////////////////////// */
-.product-details-container{
-  width: 70%;
-  margin: 1rem auto;
+/* product deatils pages ////////////////////////// */
+.container-product-detail{
+  justify-content: space-between;
 }
