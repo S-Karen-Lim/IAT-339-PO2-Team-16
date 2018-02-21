@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-  <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="stylesheet" href="css/header.css" type="text/css" />
   <link rel="stylesheet" href="css/productpages.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,700,900" rel="stylesheet">
@@ -52,20 +52,15 @@
                 <tbody>
                     <tr>
                       <td>
-                          <div class="container">
-                          <div class="block cart-image-container">
-                              <img src="img/coffee_search_packaging.jpg" alt="product coffee blend default">
-                          </div>
-                          <div class="block-2 cart-product-info">
-                            <h4>Signature Espesso - Light Roast, Whole, 350g</h4>
-                            <p>In Stock</p>
-                            <p>A short description or additional info about the product.</p>
+                          <div class="container cart-container">
+                              <div class="block cart-image-container">
+                                  <img src="img/coffee_search_packaging.jpg" alt="product coffee blend default">
+                                    <h4>Signature Espesso - Light Roast, Whole, 350g</h4>
+                                    <p>A short description or additional info about the product.</p>
 
-                            <a href="" class="default-button">Remove</a>
+                              </div>
                           </div>
-                        </div>
                       </td>
-                      <td>$7.99</td>
                       <td><select class="cart-quantity-selector">
                         <option class="subject-options-style" value="1">1</option>
                         <option class="subject-options-style" value="2">2</option>
@@ -78,6 +73,7 @@
                         <option class="subject-options-style" value="9">9</option>
                         <option class="subject-options-style" value="10">10</option>
                       </select></td>
+                      <td>$7.99</td>
                     </tr>
                     <tr>
                       <td>
@@ -94,7 +90,6 @@
                           </div>
                         </div>
                       </td>
-                      <td>$5.99</td>
                       <td><select class="cart-quantity-selector">
                         <option class="subject-options-style" value="1">1</option>
                         <option class="subject-options-style" value="2">2</option>
@@ -107,39 +102,40 @@
                         <option class="subject-options-style" value="9">9</option>
                         <option class="subject-options-style" value="10">10</option>
                       </select></td>
+                      <td>$5.99</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+    </div>
 
-        <div class="block proceed-checkout-container">
-            <h3>Order Summary</h3>
-                <table class="cart-summary-table">
-                    <thead>
-                    </thead>
-                    <tbody>
-                      <tr>
-                          <td>Subtotal</td>
-                          <td>$13.98</td>
-                      </tr>
-                      <tr>
-                          <td>Shipping &amp; Handling</td>
-                          <td>$2.99</td>
-                      </tr>
-                      <tr>
-                          <td>Tax</td>
-                          <td>$0.35</td>
-                      </tr>
-                      <tr>
-                          <td>Total</td>
-                          <td id="cart-total">$17.32</td>
-                      </tr>
-                    </tbody>
-                </table>
-            <div id="checkout-button">
-            <a href="checkout.html" class="default-button">Proceed to Checkout</a>
-          </div>
-        </div>
+    <div class="block proceed-checkout-container">
+        <h3>Order Summary</h3>
+            <table class="cart-summary-table">
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td>Subtotal</td>
+                      <td>$13.98</td>
+                  </tr>
+                  <tr>
+                      <td>Shipping &amp; Handling</td>
+                      <td>$2.99</td>
+                  </tr>
+                  <tr>
+                      <td>Tax</td>
+                      <td>$0.35</td>
+                  </tr>
+                  <tr>
+                      <td>Total</td>
+                      <td id="cart-total">$17.32</td>
+                  </tr>
+                </tbody>
+            </table>
+        <div id="checkout-button">
+        <a href="checkout.html" class="default-button">Proceed to Checkout</a>
+      </div>
     </div>
     </section>
 
