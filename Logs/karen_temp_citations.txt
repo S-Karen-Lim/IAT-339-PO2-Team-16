@@ -1,5 +1,7 @@
 Citations for Customo Coffee
 
+Global:
+  - button inspo: https://codepen.io/seme332/pen/reJOwo
 
 Index Page:
   - Photo by Jessica Lewis from Pexels https://www.pexels.com/photo/coffee-cup-drink-espresso-593333/
