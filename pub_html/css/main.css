@@ -234,7 +234,8 @@ position:relative;
 }
 
 #contact-form-buttons{
-
+  display: flex;
+  justify-content: flex-end;
 }
 
 #resetInput{
@@ -251,17 +252,6 @@ position:relative;
   color: white;
 }
 
-#submitInput{
-  display: inline-block;
-  -webkit-appearance:none;
-  min-width: 30%;
-  max-width: 10rem;
-  background-color: #ffffff;
-}
-
-  #submitInput:hover, #submitInput:focus{
-    background-color: #87CD87;
-  }
 
 /* ABOUT COFFEE PAGE ///////////////////////////////////////////// */
 .introduction_to_coffee {
@@ -459,6 +449,10 @@ position:relative;
 #receipt-container{
   margin-left: auto;
   margin-right: auto;
+}
+
+#previous-button{
+  display: flex;
 }
 
 #previous-button a{

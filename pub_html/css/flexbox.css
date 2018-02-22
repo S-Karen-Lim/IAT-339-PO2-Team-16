@@ -161,3 +161,30 @@
 .width-25{
   width:25%;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 50em){
+
+  .container{
+    display:block;
+  }
+
+  .cart-product-container table{
+    width: 100%;
+  }
+  .section-my-cart{
+    max-width: 95%!important;
+  }
+
+}
+
+@media screen and (max-width: 62em){
+  .checkout-info-container{
+    display:block;
+  }
+
+  #checkout-button-container .container{
+    display: flex;
+  }
+}
