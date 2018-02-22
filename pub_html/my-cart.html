@@ -37,30 +37,53 @@
   </section>
 
   <section class="section-my-cart">
-    <h2>My Cart</h2>
+    <h2>My Cart (1/3)</h2>
 
     <div class="container cart-product-container">
-      <div class="block-3">
+      <div class="block width-100">
             <table>
                 <thead>
-                    <tr>
-                      <th>Item</th>
-                      <th>Price per unit</th>
-                      <th>Quantity</th>
-                    </tr>
+
                 </thead>
                 <tbody>
+                    <tr>
+                      <td class="width-60">
+                          <div class="container cart-container">
+                              <div class="block cart-image-container">
+                                  <img src="img/coffee_search_packaging.jpg" alt="product coffee blend default">
+                                    <h4>Signature Espesso</h4>
+                                    <p>Dark Roast, Ground, 350g</p>
+
+                              </div>
+                          </div>
+                      </td>
+                      <td>In stock</td>
+                      <td><select class="cart-quantity-selector">
+                        <option class="subject-options-style" value="1">1</option>
+                        <option class="subject-options-style" value="2">2</option>
+                        <option class="subject-options-style" value="3">3</option>
+                        <option class="subject-options-style" value="4">4</option>
+                        <option class="subject-options-style" value="5">5</option>
+                        <option class="subject-options-style" value="6">6</option>
+                        <option class="subject-options-style" value="7">7</option>
+                        <option class="subject-options-style" value="8">8</option>
+                        <option class="subject-options-style" value="9">9</option>
+                        <option class="subject-options-style" value="10">10</option>
+                      </select></td>
+                      <td>$13.99</td>
+                    </tr>
                     <tr>
                       <td>
                           <div class="container cart-container">
                               <div class="block cart-image-container">
                                   <img src="img/coffee_search_packaging.jpg" alt="product coffee blend default">
-                                    <h4>Signature Espesso - Light Roast, Whole, 350g</h4>
-                                    <p>A short description or additional info about the product.</p>
+                                    <h4>Signature Espesso</h4>
+                                    <p>Light Roast, Whole, 350g</p>
 
                               </div>
                           </div>
                       </td>
+                      <td>In stock</td>
                       <td><select class="cart-quantity-selector">
                         <option class="subject-options-style" value="1">1</option>
                         <option class="subject-options-style" value="2">2</option>
@@ -73,23 +96,20 @@
                         <option class="subject-options-style" value="9">9</option>
                         <option class="subject-options-style" value="10">10</option>
                       </select></td>
-                      <td>$7.99</td>
+                      <td>$9.99</td>
                     </tr>
                     <tr>
                       <td>
-                          <div class="container">
-                          <div class="block cart-image-container">
-                              <img src="img/coffee_search_packaging.jpg" alt="product coffee blend default">
-                          </div>
-                          <div class="block-2 cart-product-info">
-                            <h4>Signature Espesso - Dark Roast, Ground, 350g</h4>
-                            <p>In Stock</p>
-                            <p>A short description or additional info about the product.</p>
+                          <div class="container cart-container">
+                              <div class="block cart-image-container">
+                                  <img src="img/catalogueImgs/roundsquare.jpg" alt="Round Square Coffee">
+                                    <h4>Round Square</h4>
+                                    <p>House Blend, Whole, 900g</p>
 
-                            <a href="" class="default-button">Remove</a>
+                              </div>
                           </div>
-                        </div>
                       </td>
+                      <td>In stock</td>
                       <td><select class="cart-quantity-selector">
                         <option class="subject-options-style" value="1">1</option>
                         <option class="subject-options-style" value="2">2</option>
@@ -102,41 +122,20 @@
                         <option class="subject-options-style" value="9">9</option>
                         <option class="subject-options-style" value="10">10</option>
                       </select></td>
-                      <td>$5.99</td>
+                      <td>$19.99</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-    </div>
-
-    <div class="block proceed-checkout-container">
-        <h3>Order Summary</h3>
-            <table class="cart-summary-table">
-                <thead>
-                </thead>
-                <tbody>
-                  <tr>
-                      <td>Subtotal</td>
-                      <td>$13.98</td>
-                  </tr>
-                  <tr>
-                      <td>Shipping &amp; Handling</td>
-                      <td>$2.99</td>
-                  </tr>
-                  <tr>
-                      <td>Tax</td>
-                      <td>$0.35</td>
-                  </tr>
-                  <tr>
-                      <td>Total</td>
-                      <td id="cart-total">$17.32</td>
-                  </tr>
-                </tbody>
-            </table>
-        <div id="checkout-button">
-        <a href="checkout.html" class="default-button">Proceed to Checkout</a>
       </div>
-    </div>
+
+      <div id="cart-total" class="width-90">
+        <p>Total: $43.97</p>
+      </div>
+
+      <div id="checkout-button" class="width-90">
+          <a href="checkout.html" class="default-button">Proceed to Checkout</a>
+      </div>
     </section>
 
 </body>

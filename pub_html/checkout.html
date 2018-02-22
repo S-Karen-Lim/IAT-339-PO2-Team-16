@@ -35,11 +35,11 @@
   </div>
   </section>
 
-  <section class="section-checkout"> <!-- Form goes here-->
+  <section class="section-checkout width-80"> <!-- Form goes here-->
 
-    <h2>Billing Information</h2>
+    <h2>Billing Information (2/3)</h2>
     <div class="container checkout-info-container">
-        <div class="block-2">
+        <div class="block">
             <h3>Billing Details</h3>
             <label class="subheader3">FIRST AND LAST NAME</label>
             <input type="text" name="first-and-last-name" class="contact-form"/>
@@ -50,18 +50,19 @@
             <div class="container margin-none">
                 <div class="block checkout-input">
                     <label class="subheader3">CITY</label>
-                    <input type="text" name="city" class="contact-form"/>
+                    <input type="text" name="city" class="contact-form width-70"/>
                 </div>
                 <div class="block checkout-input">
                     <label class="subheader3">PROVINCE</label>
-                    <input type="text" name="province" class="contact-form"/>
+                    <input type="text" name="province" class="contact-form width-70"/>
                 </div>
                 <div class="block checkout-input">
                     <label class="subheader3">ZIP</label>
-                    <input type="text" name="postalcode" class="contact-form"/>
+                    <input type="text" name="postalcode" class="contact-form width-70"/>
                 </div>
             </div>
-
+        </div>
+        <div class="block">
             <h3>Shipping Address</h3>
             <label class="subheader3">FIRST AND LAST NAME</label>
             <input type="text" name="first-and-last-name" class="contact-form"/>
@@ -69,23 +70,23 @@
             <input type="text" name="phone-name" class="contact-form"/>
             <label class="subheader3">STREET ADDRESS</label>
             <input type="text" name="street"class="contact-form"/>
-            <div class="container margin-none form-container">
+            <div class="container margin-none">
                 <div class="block checkout-input">
                     <label class="subheader3">CITY</label>
-                    <input type="text" name="city" class="contact-form"/>
+                    <input type="text" name="city" class="contact-form width-70"/>
                 </div>
                 <div class="block checkout-input">
                     <label class="subheader3">PROVINCE</label>
-                    <input type="text" name="province" class="contact-form"/>
+                    <input type="text" name="province" class="contact-form width-70"/>
                 </div>
                 <div class="block checkout-input">
                     <label class="subheader3">ZIP</label>
-                    <input type="text" name="postalcode" class="contact-form"/>
+                    <input type="text" name="postalcode" class="contact-form width-70"/>
                 </div>
             </div>
-          </div>
+        </div>
 
-        <div class="block-2">
+        <div class="block">
             <h3>Credit Card Details</h3>
             <label class="subheader3">NAME ON CARD</label>
             <input type="text" name="name-on-card" class="contact-form"/>
@@ -94,50 +95,30 @@
             <div class="container margin-none form-container">
                 <div class="block checkout-input">
                   <label class="subheader3">EXPIRY DATE</label>
-                  <input type="text" name="expiry-date" class="contact-form"/>
+                  <input type="text" name="expiry-date" class="contact-form width-70"/>
                 </div>
                 <div class="block checkout-input">
                   <label class="subheader3">CVV</label>
-                  <input type="text" name="cvv"class="contact-form"/>
+                  <input type="text" name="cvv"class="contact-form width-70"/>
                 </div>
             </div>
-        </div>
-
-        <div class="block proceed-checkout-container">
-            <h3>Order Summary</h3>
-                <table class="cart-summary-table">
-                    <thead>
-                    </thead>
-                    <tbody>
-                      <tr>
-                          <td>Subtotal</td>
-                          <td>$13.98</td>
-                      </tr>
-                      <tr>
-                          <td>Shipping &amp; Handling</td>
-                          <td>$2.99</td>
-                      </tr>
-                      <tr>
-                          <td>Tax</td>
-                          <td>$0.35</td>
-                      </tr>
-                      <tr>
-                          <td>Total</td>
-                          <td id="cart-total">$17.32</td>
-                      </tr>
-                    </tbody>
-                </table>
         </div>
       </div>
   </section>
 
-  <section class="button-nav">
-    <div class="container" id="checkout-button-container">
-      <div class="block">
+  <section>
+    <div id="cart-total" class="width-80">
+      <p>Total: $43.97</p>
+    </div>
+  </section>
+
+  <section class="width-80" id="checkout-button-container">
+    <div class="container">
+      <div class="block" id="previous-button">
           <a href="my-cart.html" class="default-button">Back to My Cart</a>
       </div>
-      <div class="block">
-          <a href="receipt.html" class="default-button">Finish</a>
+      <div class="block" id="finish-button">
+          <a href="receipt.html" class="default-button">Finish Purchase</a>
       </div>
     </div>
   </section>
