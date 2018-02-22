@@ -76,21 +76,30 @@
 }
 
 /* product page main ///////////////////////// */
+.feature-coffee-block{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content:space-between;
+  text-align: center;
+}
+
 .container-feature-coffee{
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .section-product-featured{
   align-content: space-around;
+  padding: 1rem 0rem 0rem 1.5rem;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.catalogue-filter{
+/* .catalogue-filter{
   width: 10rem;
   margin: auto;
-}
+} */
 
 .catalogue-container{
   align-items: flex-start;
@@ -104,7 +113,7 @@
   margin-right: auto;
 }
 
-/* product deatils pages ////////////////////////// */
+/* product details pages ////////////////////////// */
 .container-product-detail{
   justify-content: space-between;
 }

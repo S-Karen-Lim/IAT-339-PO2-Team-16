@@ -1,10 +1,5 @@
 /* styling for the product feature page and product catalogue sections ////////////////////// */
 
-.section-product-featured .block, .section-product-catalogue .block, .product-details-container .block{
-  align-content: center;
-  margin:0.5rem;
-}
-
 .section-product-featured{
   background-image: url("../img/productPage_background1.jpeg");
   background-blend-mode: lighten;
@@ -14,11 +9,14 @@
 }
 
 .feature-heading{
-  width: 10rem;
+  width: 30%;
+  margin: 0rem auto;
 }
 
 .feature-heading p, .feature-coffee-block p{
-  color: white;
+  padding: 1rem 0.2rem;
+  font-size: 1rem;
+  color: grey;
 }
 
 #header-product-catalogue{
@@ -27,16 +25,20 @@
 
 .feature-coffee-block{
   height: 30rem;
-  width: 10rem;
-  background-color: white;
+  max-width: 10rem;
+  background-color: rgba(238,238,238, 1);
   display: inline-block;
+}
+
+.feature-product-img-container{
+  max-width: auto;
+  height: 60%;
 }
 
 .catalogue-coffee-block{
   padding: 1rem;
 }
 
-/* fix thisssss//////////////////////////////////////////  */
 .catalogue-coffee-block{
   height: auto;
   width: 13rem;
@@ -50,8 +52,8 @@
 }
 
 .feature-coffee-block img, .product-image-container img{
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  max-width: 100%;
   object-position:top;
   object-fit: cover;
 }
@@ -60,10 +62,6 @@
 
 .product-image-container:hover img {
   opacity: 0.3;
-}
-
-.product-image-container:hover .text-overlay-product {
-  opacity: 1;
 }
 
 .text-overlay-product a {
@@ -79,6 +77,14 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.product-image-container:hover .text-overlay-product{
+  opacity: 1;
+}
+
+.product-coffee-title p{
+  margin-right: 2rem;
 }
 
 /* product page detail styling ///////////////////////////////////////// */
