@@ -1,9 +1,10 @@
 .section-header{
-  margin: 0;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
+  background-color: #222222;
+  padding: 0.2rem 0;
+}
+
+.header-container{
+  margin: 1rem auto 0.5rem auto;
 }
 
 .nav-main{
@@ -13,54 +14,65 @@
 .nav-left{
   position: relative;
   left: 0;
-  top: 0;
-}
-
-.nav-right{
-  float: right;
-  text-align: right;
+  top: 0rem;
 }
 
 .nav-center{
-  margin: auto;
-  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-center nav {
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0;
+}
+
+.nav-center nav a{
+  color: #c78b3c;
+  padding-bottom: 0.6rem;
+}
+
+.nav-center nav a:hover{
+  color: #fabe6f;
+  transition: 0.2s;
 }
 
 .nav-main a{
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 1.1rem;
   letter-spacing: 1.3px;
   padding: 0.3rem 0.7rem;
-  margin: 0rem 0.2rem;
-  transition: 0.5s ease-out;
-  color: black;
+  margin: 0rem 0.4rem;
 }
 
 .nav-main a:hover, .nav-header a:focus{
-  background-color: #c78b3c;
+
 }
 
 .nav-active{
-  border: 2px solid #c78b3c;
+  color: #eeeeee!important;
+  border-bottom: 4px solid #c78b3c;
 }
 
 #nav-home{
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: #c78b3c;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 2.5px;
 }
 
-#nav-home:hover{
-  transition: none;
-  background-color: #eeeeee;
-  font-size: 1.1rem;
-  color: #e89686;
-  margin: auto;
-  width: 50%;
+.nav-right{
+  position: relative;
 }
 
+.nav-right a{
+  color: white;
+  position: absolute;
+  top: 0.1rem;
+  right: 0;
+}
 
 /* references
 
