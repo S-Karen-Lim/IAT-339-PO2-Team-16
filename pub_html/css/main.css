@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-weight: 700;
   text-transform: capitalize;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
   font-style: oblique;
 }
@@ -263,17 +263,25 @@ position:relative;
     background-color: #87CD87;
   }
 
-
+/* ABOUT COFFEE PAGE ///////////////////////////////////////////// */
 .introduction_to_coffee {
   font-size: 16px;
 }
 
-.products-hyperlink {
+.products-hyperlink{
   text-align: center;
+}
+
+/* .products-hyperlink a{
   text-transform: uppercase;
   text-decoration: none;
+  color:
   font-weight: 800;
 }
+
+.products-hyperlink a:hover, .products-hyperlink a:focus{
+
+} */
 
 .coffee_roast {
   color: #101010;
@@ -294,25 +302,19 @@ position:relative;
   font-size: 14px;
   color: #454545;
   margin: 1.75rem;
-
 }
 
 
 #our-coffee{
   max-width: 70%;
-  margin: 0 auto;
-  letter-spacing: 3px;
+  margin: 4rem auto;
+  letter-spacing: 1px;
 }
 
 #our-coffee h2{
   color: #454545;
   text-align: center;
 }
-
-#our-coffee p{
-
-}
-
 
 .section-my-cart{
   max-width: 80%;

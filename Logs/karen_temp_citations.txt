@@ -1,10 +1,12 @@
 Citations for Customo Coffee
 
+Global:
+  - button inspo: https://codepen.io/seme332/pen/reJOwo
 
 Index Page:
   - Photo by Jessica Lewis from Pexels https://www.pexels.com/photo/coffee-cup-drink-espresso-593333/
   - Photo by freestocks.org from Pexels https://www.pexels.com/photo/person-holding-black-ornament-while-shaping-metal-component-226633/
-
+  - background image css styling: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size#Values
 
 About us page:
   - coffee image 1: Photo by Chevanon Photography from Pexels https://www.pexels.com/photo/close-up-of-hand-holding-coffee-cup-302902/
@@ -14,8 +16,7 @@ About us page:
 
 
 Product Page:
-  - product page background
-  Photo by Toni Cuenca from Pexels https://www.pexels.com/photo/caffeine-coffee-coffee-beans-roasted-585750/
+  - product page background: Photo by Toni Cuenca from Pexels https://www.pexels.com/photo/caffeine-coffee-coffee-beans-roasted-585750/
 
   - product page feature coffee sample
   https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
@@ -43,12 +44,27 @@ Coffee Catalogue:
   - 49th Parallel Coffee French Roast: https://49thcoffee.com/products/organic-french-roast
   - La Colombe, Monaco Roast: https://www.lacolombe.com/collections/darker/products/monaco?variant=6609492165
 
+  - text overlay on hover in product catalogue: https://www.w3schools.com/howto/howto_css_image_overlay.asp
 
 
+Feature Coffee page 1: Cultura
+  - http://www.culturacafe.ca/about/
+  - http://www.cultura.coffee/
+
+Feature Coffee page 2: Balzac
+  - http://www.balzacs.com/about/
+  - https://shop.balzacs.com/products/balzacs-blend-1
+  - http://www.balzacs.com/about/atwood-blend/
+  - http://www.balzacs.com/about/roast-guide/
+
+Featured Coffee Page 3: bassett
+  - http://bassettespresso.com/product/ethiopia-shakiso-washed/
+  - http://bassettespresso.com/wholesale/
+
+Featured Coffee Page 4: Fernwood
+  - https://fernwoodcoffee.com/collections/coffee
+  - https://fernwoodcoffee.com/collections/coffee/products/1936-espresso-new
 
 
-code help
-background image:
-https://developer.mozilla.org/en-US/docs/Web/CSS/background-size#Values
-text overlay on hover in product catalogue:
-https://www.w3schools.com/howto/howto_css_image_overlay.asp
+Cart:
+https://stackoverflow.com/questions/18679020/border-around-tr-element-doesnt-show
