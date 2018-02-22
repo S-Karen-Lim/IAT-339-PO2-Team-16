@@ -68,3 +68,6 @@ Featured Coffee Page 4: Fernwood
 
 Cart:
 https://stackoverflow.com/questions/18679020/border-around-tr-element-doesnt-show
+https://stackoverflow.com/questions/585945/how-to-align-content-of-a-div-to-the-bottom
+
+https://www.w3schools.com/css/css_image_transparency.asp
