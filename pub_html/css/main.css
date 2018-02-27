@@ -98,8 +98,9 @@ ul {
 .section-aboutustitle{
 color: #454545;
 font-weight: 900;
+font-size: 3rem;
 text-align: center;
-margin-top: 2.5rem;
+margin-top: 4rem;
 position:relative;
 }
 
@@ -255,7 +256,8 @@ position:relative;
 
 /* ABOUT COFFEE PAGE ///////////////////////////////////////////// */
 .introduction_to_coffee {
-  font-size: 16px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .products-hyperlink{
@@ -274,17 +276,22 @@ position:relative;
 } */
 
 .coffee_roast {
-  color: #101010;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  color: #454545;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  position:relative;
 }
 
 
+
 .roasts_titles{
-  letter-spacing: 2px;
-  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-size: 15px;
   color: #303030;
   text-align: center;
+  margin: 2rem;
 }
 
 .roast_paragraph{
