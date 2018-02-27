@@ -17,6 +17,7 @@
   padding: 1rem 0.2rem;
   font-size: 1rem;
   color: grey;
+  min-height: 20%;
 }
 
 #header-product-catalogue{
@@ -28,6 +29,8 @@
   max-width: 10rem;
   background-color: rgba(238,238,238, 1);
   display: inline-block;
+  position: relative;
+  margin-left: 0.5rem;
 }
 
 .feature-product-img-container{
@@ -56,6 +59,12 @@
   max-width: 100%;
   object-position:top;
   object-fit: cover;
+}
+
+.feature-coffee-button{
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
 }
 
 /* hover on image from: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
