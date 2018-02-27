@@ -57,10 +57,18 @@
 }
 
 #nav-home{
-  font-size: 1.6rem;
+  /* font-size: 1.6rem;
   color: #c78b3c;
   font-weight: 800;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.5px; */
+  width: auto;
+  height: 2rem;
+}
+
+#nav-my-cart{
+  height: 1.5rem;
+  width: auto;
+  vertical-align: bottom;
 }
 
 .nav-right{
@@ -68,7 +76,7 @@
 }
 
 .nav-right a{
-  color: white;
+  color: #C2B59B;
   position: absolute;
   top: 0.1rem;
   right: 0;
