@@ -101,8 +101,7 @@
 }
 
 .product-detail-img-container{
-  margin-right: 1.5rem;
-  display: inline-block;
+margin-right: 1.5rem;
 }
 
 @media (max-width: 70em) {
@@ -113,18 +112,18 @@
 
 .img-product-detail{
   min-height: 100%;
-  max-width: 30vw;
+  max-width: 60%;
+  display: inline-block;
 }
 
 .img-product-detail-side{
-  max-width: 20%;
-  min-width: 10vw;
-  margin: 0rem 5%;
+  max-width: 40%;
+  min-height: 100%;
 }
 
 .img-product-detail img, .img-product-detail-side img{
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .product-coffee-caption{
