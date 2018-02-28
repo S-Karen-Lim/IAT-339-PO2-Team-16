@@ -203,6 +203,14 @@ position:relative;
   border-radius: 5px;
 }
 
+.contact-title{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 .section-contact-us{
   max-width: 70%;
   margin: 0 auto;
@@ -387,6 +395,14 @@ position:relative;
 
 }
 
+.cart-title{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 #cart-total {
   border-top: 0.1rem solid #c78b3c;
   margin-left: auto;
@@ -442,6 +458,14 @@ position:relative;
     padding: 1rem;
 }
 
+.billing-title{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 #checkout-button-container{
   margin-left:auto;
   margin-right: auto;
@@ -456,6 +480,13 @@ position:relative;
 #receipt-container{
   margin-left: auto;
   margin-right: auto;
+}
+
+.receipt-title {
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 4rem;
 }
 
 #previous-button{
@@ -478,6 +509,11 @@ position:relative;
 
 
 #events-title {
+  color: #454545;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
   margin-left: 2.5rem;
 }
 
