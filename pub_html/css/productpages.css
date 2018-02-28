@@ -97,35 +97,49 @@
 }
 
 /* product page detail styling ///////////////////////////////////////// */
-.section-product-detail{
-  width: 80%;
+.product-detail-all-container{
+  width: 90%;
+  padding: 1rem;
   margin: 4rem auto;
+  display: block;
 }
 
 .container-product-detail{
-  max-height: 80vh;
+  max-height: 50%;
+  /* margin: auto; */
+}
+
+.product-detail-img-container{
+margin-right: 1.5rem;
+}
+
+@media (max-width: 70em) {
+  .container-product-detail{
+    display: block;
+  }
 }
 
 .img-product-detail{
   min-height: 100%;
-  max-width: 30vw;
+  max-width: 60%;
+  display: inline-block;
 }
 
 .img-product-detail-side{
-  max-width: 20%;
-  min-width: 10vw;
-  margin: 0rem 2rem;
+  max-width: 40%;
+  min-height: 100%;
 }
 
 .img-product-detail img, .img-product-detail-side img{
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .product-coffee-caption{
   min-width: 40%;
   border-top: 2px solid #c78b3c;
   margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 .detail-product-title{
@@ -139,50 +153,55 @@
 }
 
 /* Review section /////////////////////////////////////// */
-/* citation: star rating from codepen: https://codepen.io/jamesbarnett/pen/vlpkh */
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-
-.rating {
-  border: none;
-  float: left;
-}
-
-.rating > input {
-  display: none;
-}
-
-.rating > label:before {
-  margin: 5px;
-  font-size: 3rem;
-  font-family: FontAwesome;
-  display: inline-block;
-  content: "\f005";
-}
-
-.rating > .half:before {
-  content: "\f089";
-  position: absolute;
-}
-
-.rating > label {
-color: #c78b3c;
- float: right;
-}
-
-/***** CSS Magic to Highlight Stars on Hover *****/
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label {
-  color: #5a5a5a;
-   } /* hover previous stars in list */
-
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label {
-  color: #c78b3c;
-}
 
 .section-leave-review{
-  margin-top: 3rem;
+  display: block;
+  min-width: inherit;
+  margin: 1rem auto;
+}
+
+/* citation: Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html */
+
+
+.rating {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.rating-input {
+    float: right;
+    width: 26px;
+    height: 24px;
+    padding: 0;
+    margin: 0 0 0 -24px;
+    opacity: 0;
+}
+
+.rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url('../img/star_rating.png') 0 -26px;
+}
+
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url('../img/star_rating.png') 0 -26px;
+}
+
+@media query {
+
 }

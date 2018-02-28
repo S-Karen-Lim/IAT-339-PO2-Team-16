@@ -3,3 +3,77 @@ https://stackoverflow.com/questions/18679020/border-around-tr-element-doesnt-sho
 https://stackoverflow.com/questions/585945/how-to-align-content-of-a-div-to-the-bottom
 
 https://www.w3schools.com/css/css_image_transparency.asp
+
+Citations for Customo Coffee
+
+General/other:
+  - button inspo: https://codepen.io/seme332/pen/reJOwo
+  - Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html
+
+Index Page:
+  - Photo by Jessica Lewis from Pexels https://www.pexels.com/photo/coffee-cup-drink-espresso-593333/
+  - Photo by freestocks.org from Pexels https://www.pexels.com/photo/person-holding-black-ornament-while-shaping-metal-component-226633/
+  - background image css styling: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size#Values
+
+About us page:
+  - coffee image 1: Photo by Chevanon Photography from Pexels https://www.pexels.com/photo/close-up-of-hand-holding-coffee-cup-302902/
+  - http://www.ncausa.org/Health-Caffeine
+  - http://money.cnn.com/gallery/investing/2014/10/03/hot-etfs-mutual-funds-2014/index.html
+  - https://www.google.ca/search?biw=1536&bih=686&tbm=isch&sa=1&ei=_zeKWpLeBoTgjwPc57K4Dw&q=light+medium+dark+roast&oq=light+medium+dark+roast&gs_l=psy-ab.3..0j0i8i30k1j0i24k1l2.98881.103062.0.103262.22.19.0.3.3.0.124.1405.17j2.19.0....0...1c.1.64.psy-ab..0.22.1412...0i67k1j0i10k1.0.b27UPKgQ1NI#imgrc=YyYdrx7kTTcsWM:
+
+
+Product Page:
+  - product page background: Photo by Toni Cuenca from Pexels https://www.pexels.com/photo/caffeine-coffee-coffee-beans-roasted-585750/
+
+  - product page feature coffee sample
+  https://dribbble.com/shots/1050911-Wooden-Bag/attachments/128272
+
+  - feature coffee 1: Cultura Coffee Roasters by Levi Huddleston
+  https://www.behance.net/gallery/15888355/Cultura-Coffee-Roasters
+
+  - feature coffee 2: Balzac's Coffee by Chad Roberts design.
+  http://www.thedieline.com/blog/2012/10/17/balzacs-coffee-roasters.html
+
+  -feature coffee 3: Bassett espresso
+  http://bassettespresso.com/our-coffee/
+
+  -feature coffee 4: Fernwood coffee by Glasfurd and Walker
+  https://fernwoodcoffee.com/collections/coffee/products/1936-espresso-new
+  https://www.behance.net/gallery/10180903/Fernwood-Coffee
+
+Coffee Catalogue:
+  - Quills Coffee: https://quillscoffee.com/collections/frontpage/products/papua-new-guinea-kunjin
+  - Abednego Colombian Coffee: http://abednegocoffee.com/product/colombia-coffee/
+  - Ripple Coffee: http://www.designwomb.com/work/ripple-coffee/#sthash.QU8qTZIP.qjtu
+  - Alabaster Coffee: https://www.trendhunter.com/trends/black-coffee-bags
+  - Roundsquare Roastery: https://fromupnorth.com/packaging-inspiration-1113-161ae01c1f20
+  - Jed's Coffee: http://lovelypackage.com/jeds-coffee-co/
+  - 49th Parallel Coffee French Roast: https://49thcoffee.com/products/organic-french-roast
+  - La Colombe, Monaco Roast: https://www.lacolombe.com/collections/darker/products/monaco?variant=6609492165
+
+  - text overlay on hover in product catalogue: https://www.w3schools.com/howto/howto_css_image_overlay.asp
+
+
+Feature Coffee page 1: Cultura
+  - http://www.culturacafe.ca/about/
+  - http://www.cultura.coffee/
+
+Feature Coffee page 2: Balzac
+  - http://www.balzacs.com/about/
+  - https://shop.balzacs.com/products/balzacs-blend-1
+  - http://www.balzacs.com/about/atwood-blend/
+  - http://www.balzacs.com/about/roast-guide/
+
+Featured Coffee Page 3: bassett
+  - http://bassettespresso.com/product/ethiopia-shakiso-washed/
+  - http://bassettespresso.com/wholesale/
+
+Featured Coffee Page 4: Fernwood
+  - https://fernwoodcoffee.com/collections/coffee
+  - https://fernwoodcoffee.com/collections/coffee/products/1936-espresso-new
+
+Cart:
+  - https://stackoverflow.com/questions/18679020/border-around-tr-element-doesnt-show
+
+Updates Page:
+  - https://hellogiggles.com/lifestyle/food-drink/national-coffee-day-fall-coffee-drinks/
