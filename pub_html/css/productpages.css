@@ -130,50 +130,53 @@
 }
 
 /* Review section /////////////////////////////////////// */
-/* citation: star rating from codepen: https://codepen.io/jamesbarnett/pen/vlpkh */
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-
-.rating {
-  border: none;
-  float: left;
-}
-
-.rating > input {
-  display: none;
-}
-
-.rating > label:before {
-  margin: 5px;
-  font-size: 3rem;
-  font-family: FontAwesome;
-  display: inline-block;
-  content: "\f005";
-}
-
-.rating > .half:before {
-  content: "\f089";
-  position: absolute;
-}
-
-.rating > label {
-color: #c78b3c;
- float: right;
-}
-
-/***** CSS Magic to Highlight Stars on Hover *****/
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label {
-  color: #5a5a5a;
-   } /* hover previous stars in list */
-
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label {
-  color: #c78b3c;
-}
 
 .section-leave-review{
-  margin-top: 3rem;
+  margin: 3rem 0rem;
+}
+
+/* citation: Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html */
+
+
+.rating {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.rating-input {
+    float: right;
+    width: 26px;
+    height: 24px;
+    padding: 0;
+    margin: 0 0 0 -24px;
+    opacity: 0;
+}
+
+.rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url('../img/star_rating.png') 0 -26px;
+}
+
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url('../img/star_rating.png') 0 -26px;
+}
+
+@media query {
+
 }
