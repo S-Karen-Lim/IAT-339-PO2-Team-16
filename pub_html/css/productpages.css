@@ -88,13 +88,27 @@
 }
 
 /* product page detail styling ///////////////////////////////////////// */
-.section-product-detail{
-  width: 80%;
+.product-detail-all-container{
+  width: 90%;
+  padding: 1rem;
   margin: 4rem auto;
+  display: block;
 }
 
 .container-product-detail{
-  max-height: 80vh;
+  max-height: 50%;
+  /* margin: auto; */
+}
+
+.product-detail-img-container{
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 70em) {
+  .container-product-detail{
+    display: block;
+  }
 }
 
 .img-product-detail{
@@ -105,7 +119,7 @@
 .img-product-detail-side{
   max-width: 20%;
   min-width: 10vw;
-  margin: 0rem 2rem;
+  margin: 0rem 5%;
 }
 
 .img-product-detail img, .img-product-detail-side img{
@@ -117,6 +131,7 @@
   min-width: 40%;
   border-top: 2px solid #c78b3c;
   margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 .detail-product-title{
@@ -132,7 +147,9 @@
 /* Review section /////////////////////////////////////// */
 
 .section-leave-review{
-  margin: 3rem 0rem;
+  display: block;
+  min-width: inherit;
+  margin: 1rem auto;
 }
 
 /* citation: Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html */
