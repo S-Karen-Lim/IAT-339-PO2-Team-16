@@ -321,6 +321,13 @@ position:relative;
   text-align: center;
 }
 
+#header-product-catalogue{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+
 .section-my-cart{
   max-width: 80%;
   margin: 0 auto;
