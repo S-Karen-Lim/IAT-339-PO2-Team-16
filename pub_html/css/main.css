@@ -269,25 +269,20 @@ position:relative;
 
 
 /* ABOUT COFFEE PAGE ///////////////////////////////////////////// */
-.introduction_to_coffee {
-  font-size: 15px;
-  text-align: center;
+.roast-text-block {
+  text-align: left;
+  min-width: 20rem;
+  margin: 0.5rem 1.3rem;
 }
 
+/* @media (max-width: 70em) {
+  .roast-text-container{
+    display: block;
+  }
+} */
 .products-hyperlink{
   text-align: center;
 }
-
-/* .products-hyperlink a{
-  text-transform: uppercase;
-  text-decoration: none;
-  color:
-  font-weight: 800;
-}
-
-.products-hyperlink a:hover, .products-hyperlink a:focus{
-
-} */
 
 .coffee_roast {
   color: #454545;
@@ -302,8 +297,8 @@ position:relative;
   letter-spacing: 1.5px;
   font-size: 15px;
   color: #303030;
-  text-align: center;
-  margin: 2rem;
+  text-align: left;
+  margin: 2rem 0;
 }
 
 .roast_paragraph{
@@ -312,7 +307,6 @@ position:relative;
   color: #454545;
   margin: 1.75rem;
 }
-
 
 #our-coffee{
   max-width: 70%;
@@ -332,6 +326,21 @@ position:relative;
   margin-top: 4rem;
 }
 
+.about-coffee-block{
+  min-width: 45%;
+  margin: 0 auto;
+}
+
+#about-coffee-block-img{
+  background-image: url("../img/dark_roast.jpg");
+  background-size: cover;
+  background-position: top;
+  min-width: 50%;
+  min-height: 10rem;
+  margin-right: 0.5rem;
+}
+
+/* cart page //////////////////////////////// */
 .section-my-cart{
   max-width: 80%;
   margin: 0 auto;
