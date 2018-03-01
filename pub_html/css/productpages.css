@@ -13,11 +13,11 @@
     margin: 0rem auto;
   }
 
-.feature-heading p, .feature-coffee-block p{
-  padding: 1rem 0.2rem;
-  font-size: 1rem;
-  min-height: 20%;
-}
+  .feature-heading p, .feature-coffee-block p{
+    padding: 1rem 0.2rem;
+    font-size: 1rem;
+    color: black;
+  }
 
   #header-product-catalogue{
     color: #454545;
@@ -32,6 +32,8 @@
     max-width: 10rem;
     background-color: rgba(238,238,238, 1);
     display: inline-block;
+    position: relative;
+    margin-left: 1rem;
   }
 
   .feature-product-img-container{
@@ -41,27 +43,34 @@
 
   .catalogue-coffee-block{
     padding: 1rem;
-  }
-
-  .catalogue-coffee-block{
-    height: auto;
+    min-height: 33rem;
     width: 13rem;
     display: inline-block;
-    /* position: relative; */
+    position: relative;
+    margin-bottom: 1.5rem;
   }
 
-.product-image-container{
-  height: 20rem;
-  width: 13rem;
-  margin-left:auto;
-  margin-right:auto;
-}
+  .product-image-container{
+    height: 20rem;
+    width: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .feature-coffee-block img, .product-image-container img{
     height: 100%;
     max-width: 100%;
     object-position:top;
     object-fit: cover;
+  }
+
+  .feature-coffee-button{
+    position: absolute;
+    bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 
   /* hover on image from: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
@@ -89,13 +98,21 @@
     opacity: 1;
   }
 
-  .product-coffee-title p{
-    margin-right: 2rem;
+  .product-coffee-title{
+    position: relative;
   }
 
-.product-coffee-title p{
-  text-align: center;
-}
+  .product-coffee-title p{
+    text-align: center;
+  }
+
+  /* product page detail styling ///////////////////////////////////////// */
+  .product-detail-all-container{
+    width: 90%;
+    padding: 1rem;
+    margin: 4rem auto;
+    display: block;
+  }
 
   .container-product-detail{
     max-height: 50%;
@@ -186,8 +203,26 @@
       background-position: 0 0;
   }
 
-.add-to-cart-button{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+  .rating-star,
+  .rating:hover .rating-star {
+      position: relative;
+      float: right;
+      display: block;
+      width: 26px;
+      height: 26px;
+      background: url('../img/star_rating.png') 0 -26px;
+  }
+
+  .add-to-cart-button{
+    text-align: center;
+    position: absolute;
+    bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  @media query {
+
+  }
