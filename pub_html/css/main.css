@@ -1,8 +1,12 @@
-
+html, body{
+  height: 100%;
+}
 /* Header and body styling /////////////////////////*/
 body {
 font-family: 'Lato', Verdana, sans-serif;
 background-color:#eeeeee;
+overflow: hidden;
+height: 100%;
 /* padding: 1rem 3rem; */
 }
 
@@ -314,6 +318,7 @@ position:relative;
 
 .products-hyperlink{
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 /* .products-hyperlink a{
