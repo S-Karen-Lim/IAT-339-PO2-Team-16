@@ -30,6 +30,14 @@
   margin: 1rem auto;
 }
 
+.class-cssSelector{
+  colour:;
+}
+
+.id-cssSelector{
+  colour:;
+}
+
 /* for code style */
 code{
   background-color: rgb(230, 230, 230);
