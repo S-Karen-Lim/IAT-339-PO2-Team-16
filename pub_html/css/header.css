@@ -56,7 +56,7 @@
   border-bottom: 4px solid #c78b3c;
 }
 
-#nav-home{
+.nav-home{
   /* font-size: 1.6rem;
   color: #c78b3c;
   font-weight: 800;
@@ -65,7 +65,7 @@
   height: 2rem;
 }
 
-#nav-my-cart{
+.nav-my-cart{
   height: 1.5rem;
   width: auto;
   vertical-align: bottom;
