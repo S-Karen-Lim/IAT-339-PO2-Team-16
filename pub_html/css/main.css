@@ -190,30 +190,6 @@ position:relative;
   background-size: cover;
 }
 
-/*Form box found in contact//////////////////////////////*/
-.form-box {
-  background-color: #d2e3ed;
-  padding: 1.5rem;
-}
-
-.subheader3 {
-  display: block;
-  text-align: left;
-  letter-spacing: 0.15rem;
-  color: #5a5a5a;
-  font-size: 12px;
-  padding: 0.5rem 1rem;
-  font-weight: normal;
-}
-
-.contact-form {
-  padding: .3rem .5rem;
-  margin: 0.1rem 0.9rem;
-  width: 90%;
-  border:none;
-  border-radius: 5px;
-}
-
 .contact-title{
   color: #454545;
   font-weight: 900;
@@ -264,11 +240,35 @@ position:relative;
   padding: .5rem;
   margin: .5rem;
   color: #606060;
-  letter-spacing: .075rem;
+  /* letter-spacing: .075rem; */
 }
 
 .subject-options-style{
   color: #909090;
+}
+
+/*Form box styling //////////////////////////////*/
+.form-box {
+  background-color: #d2e3ed;
+  padding: 1.5rem;
+}
+
+.subheader3 {
+  display: block;
+  text-align: left;
+  letter-spacing: 0.15rem;
+  color: #5a5a5a;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: normal;
+}
+
+.contact-form {
+  padding: 0.9rem .5rem;
+  margin: 0.2rem 0.9rem;
+  width: 90%;
+  border:none;
+  border-radius: 3px;
 }
 
 .message-box {
@@ -278,7 +278,7 @@ position:relative;
   text-align: left;
   width: 90%;
   min-height: 7.5rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #contact-form-right{
@@ -289,6 +289,10 @@ position:relative;
 #contact-form-buttons{
   display: flex;
   justify-content: flex-end;
+}
+
+#submitInput{
+  margin-top: 2rem;
 }
 
 #resetInput{
