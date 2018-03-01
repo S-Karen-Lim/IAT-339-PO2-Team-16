@@ -76,4 +76,7 @@ Cart:
   - https://stackoverflow.com/questions/18679020/border-around-tr-element-doesnt-show
 
 Updates Page:
-  - https://hellogiggles.com/lifestyle/food-drink/national-coffee-day-fall-coffee-drinks/
+  Event imagery:
+  - http://www.blackdropcoffee.com/wp-content/uploads/2015/05/shutterstock_385283782-cupping-1.jpg
+  - https://media1.s-nbcnews.com/i/newscms/2017_43/2205281/171027-pumpkin-spice-mn-1600_03b566a078de561550bfbe058cd4d870.jpg
+  - http://sprudge.com/wp-content/uploads/2016/06/round-one-day-one-feature-970x633.jpg
