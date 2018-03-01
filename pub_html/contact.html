@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
   <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <title>Contact Us | Customo Coffee</title>
@@ -19,38 +20,66 @@
       <div class="block">
         <nav class="nav-main container">
             <div class="nav-left block">
-                <a href="index.html"><img src="img/customoLogo.png" id="nav-home" alt="Customo Coffee Home"/></a>
+                <a href="index.html"><img src="img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
             </div>
             <div class="nav-center block-2">
               <nav>
-                <a href="about-coffee.html">Coffee 101</a><i></i>
+                <a href="about-coffee.html">Coffee 101</a>
                 <a href="products.html">Store</a>
                 <a href="updates.html">Events</a>
                 <a href="contact.html" class="nav-active">Contact</a>
               </nav>
             </div>
             <div class="nav-right block">
-                <a href="my-cart.html"><img src="img/cart_icon.png" id="nav-my-cart"/>Cart</a>
+                <a href="my-cart.html"><img src="img/cart_icon.png" class="nav-my-cart"/>Cart</a>
             </div>
         </nav>
       </div>
   </div>
   </header>
 
+<div id="contact-us-img"></div>
   <section class="section-contact-us"> <!-- Form goes here-->
 
     <h2 class="contact-title">Contact us</h2>
+
+    <div class="container">
+      <div class="block paragraph-block">
+        <p class="contactus-paragraph">
+          Interested in our coffee or have any questions? Leave us a message down below and we will reply back as soon as possible! You may also call us with the phone number down below during our hours of operation.
+        </p>
+
+        <p id="hoursofoperation-title">
+        Hours of Operations:
+        </p>
+        <p class="days-of-operation">
+          Monday-Thursday: 7:00AM - 5:00PM
+        </p>
+        <p class="days-of-operation">
+          Friday-Saturday: 6:30AM - 6:30PM
+        </p>
+        <p class="days-of-operation">
+          Sunday: Warehouse Closed
+        </p>
+
+        <p id="location-phone">
+        Location & Phone #:
+        </p>
+        <p class="location-phone-info">
+          3456 Brew St. , Edmonton, CA
+        </p>
+        <p class="location-phone-info">
+          (604) - 595 - 0316
+        </p>
+
+      </div>
+    </div>
+
+
+
     <div class="container contact-container">
         <div class="block">
           <div class="form-box">
-            <select id="subject-options" class="contact-form"> <!--This will be for our drop down selector for paper sizes-->
-              <option selected disabled>Select one</option>
-              <option class="subject-options-style" value="letter">Purchase inquiry</option>
-              <option class="subject-options-style" value="legal">About the company</option>
-              <option class="subject-options-style" value="tabloid">About our coffee</option>
-              <option class="subject-options-style" value="tabloid">Want to partner?</option>
-              <option class="subject-options-style" value="tabloid">Other</option>
-            </select>
             <label class="subheader3">FIRST NAME</label>
             <input type="text" name="firstname" class="contact-form"/>
             <label class="subheader3">LAST NAME</label>
@@ -63,8 +92,17 @@
         </div>
         <div class="block-2 form-box" id="contact-form-right">
           <div>
+            <label class="subheader3">SUBJECT</label>
+            <select id="subject-options" class="contact-form"> <!--This will be for our drop down selector for paper sizes-->
+              <option selected disabled>Select Subject:</option>
+              <option class="subject-options-style" value="letter">Purchase inquiry</option>
+              <option class="subject-options-style" value="legal">About the company</option>
+              <option class="subject-options-style" value="tabloid">About our coffee</option>
+              <option class="subject-options-style" value="tabloid">Want to partner?</option>
+              <option class="subject-options-style" value="tabloid">Other</option>
+            </select>
             <label class="subheader3">DETAILS</label>
-            <textarea class="message-box width-100" placeholder="Let us know what you think!"></textarea>
+            <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
           </div>
           <div id="contact-form-buttons">
               <button id="submitInput" class="default-button">Submit</button>
@@ -73,6 +111,18 @@
     </div>
   </section>
 
+  <!-- FOOTER ////////////////////////////////////////////////////////////////////// -->
+  <footer class="section-footer">
+      <div class="container width-70 footer-container">
+        <div class="block">
+          <nav class="nav-footer">
+                <a href="styleguide/styleguideIndex.html">Style Guide</a><span> | </span>
+                <a href="references.html">References</a><span> | </span>
+                <a href="https://github.com/S-Karen-Lim/IAT-339-PO2-Team-16">Git Repository</a>
+          </nav>
+        </div>
+      </div>
+  </footer>
 </body>
 
 

@@ -1,8 +1,11 @@
-
+html, body{
+  height: 100%;
+}
 /* Header and body styling /////////////////////////*/
 body {
 font-family: 'Lato', Verdana, sans-serif;
 background-color:#eeeeee;
+min-height: 100%;
 /* padding: 1rem 3rem; */
 }
 
@@ -132,7 +135,7 @@ position:relative;
   margin: 1rem 0rem;
 }
 
-/* Index STYLING ////////////////////////////////////////////////////// */
+/* BUTTON STYLING ////////////////////////////////////////////////////// */
 .block-learnAboutUs .main-nav-button a{
   color: black;
 }
@@ -179,7 +182,75 @@ position:relative;
   background-color: #e89686;
 }
 
-/*Form box found in contact//////////////////////////////*/
+/* CONTACT US PAGE /////////////////////////////////////// */
+#contact-us-img{
+  width: 90%;
+  height: 30vh;
+  margin: 1rem auto;
+  background-image: url("../img/contact_us_img.jpeg");
+  background-position:center;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+.contact-title{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+.section-contact-us{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.contactus-paragraph{
+  font-size: 20px;
+  text-align: center;
+  color: #909090;
+}
+
+#hoursofoperation-title{
+  font-size: 23px;
+  text-align: center;
+  color: #454545;
+}
+
+.days-of-operation{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #909090;
+}
+
+#location-phone{
+  font-size: 23px;
+  text-align: center;
+  color: #454545;
+}
+
+.location-phone-info{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #909090;
+}
+
+#subject-options{
+  padding: .5rem;
+  margin: .5rem;
+  color: #606060;
+  /* letter-spacing: .075rem; */
+}
+
+.subject-options-style{
+  color: #909090;
+}
+
+/*Form box styling //////////////////////////////*/
 .form-box {
   background-color: #d2e3ed;
   padding: 1.5rem;
@@ -190,41 +261,17 @@ position:relative;
   text-align: left;
   letter-spacing: 0.15rem;
   color: #5a5a5a;
-  font-size: 12px;
+  font-size: 1rem;
   padding: 0.5rem 1rem;
   font-weight: normal;
 }
 
 .contact-form {
-  padding: .3rem .5rem;
-  margin: 0.1rem 0.9rem;
+  padding: 0.9rem .5rem;
+  margin: 0.2rem 0.9rem;
   width: 90%;
   border:none;
-  border-radius: 5px;
-}
-
-.contact-title{
-  color: #454545;
-  font-weight: 900;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 4rem;
-}
-
-.section-contact-us{
-  max-width: 70%;
-  margin: 0 auto;
-}
-
-#subject-options{
-  padding: .5rem;
-  margin: .5rem;
-  color: #606060;
-  letter-spacing: .075rem;
-}
-
-.subject-options-style{
-  color: #909090;
+  border-radius: 3px;
 }
 
 .message-box {
@@ -234,7 +281,7 @@ position:relative;
   text-align: left;
   width: 90%;
   min-height: 7.5rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #contact-form-right{
@@ -245,6 +292,10 @@ position:relative;
 #contact-form-buttons{
   display: flex;
   justify-content: flex-end;
+}
+
+#submitInput{
+  margin-top: 2rem;
 }
 
 #resetInput{
@@ -263,43 +314,37 @@ position:relative;
 
 
 /* ABOUT COFFEE PAGE ///////////////////////////////////////////// */
-.introduction_to_coffee {
-  font-size: 15px;
-  text-align: center;
+.roast-text-block {
+  text-align: left;
+  min-width: 20rem;
+  margin: 0.5rem 1.3rem;
 }
 
+/* @media (max-width: 70em) {
+  .roast-text-container{
+    display: block;
+  }
+} */
 .products-hyperlink{
   text-align: center;
+  margin-bottom: 2rem;
 }
-
-/* .products-hyperlink a{
-  text-transform: uppercase;
-  text-decoration: none;
-  color:
-  font-weight: 800;
-}
-
-.products-hyperlink a:hover, .products-hyperlink a:focus{
-
-} */
 
 .coffee_roast {
   color: #454545;
   font-weight: 900;
   font-size: 3rem;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   position:relative;
 }
-
-
 
 .roasts_titles{
   letter-spacing: 1.5px;
   font-size: 15px;
   color: #303030;
-  text-align: center;
-  margin: 2rem;
+  text-align: left;
+  margin: 2rem 0;
 }
 
 .roast_paragraph{
@@ -308,7 +353,6 @@ position:relative;
   color: #454545;
   margin: 1.75rem;
 }
-
 
 #our-coffee{
   max-width: 70%;
@@ -321,6 +365,28 @@ position:relative;
   text-align: center;
 }
 
+#header-product-catalogue{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+
+.about-coffee-block{
+  min-width: 45%;
+  margin: 0 auto;
+}
+
+#about-coffee-block-img{
+  background-image: url("../img/dark_roast.jpg");
+  background-size: cover;
+  background-position: top;
+  min-width: 50%;
+  min-height: 10rem;
+  margin-right: 0.5rem;
+}
+
+/* cart page //////////////////////////////// */
 .section-my-cart{
   max-width: 80%;
   margin: 0 auto;
@@ -477,7 +543,9 @@ position:relative;
 
 }
 
+/* RECIEPT PAGE //////////////////////////// */
 #receipt-container{
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -489,6 +557,11 @@ position:relative;
   margin-top: 4rem;
 }
 
+.receipt-block{
+  background-color: white;
+  padding: 1rem 1rem;
+}
+
 #previous-button{
   display: flex;
 }
@@ -498,15 +571,12 @@ position:relative;
 }
 
 
-/* updates styling //////////////// */
-
+/* updates styling //////////////////////////////////////////////// */
 .events-container{
-  padding: 3rem;
+  width: 80%;
+  margin: 1rem auto;
   border-bottom: 1.25px solid #c78b3c;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
-
 
 #events-title {
   color: #454545;
@@ -518,20 +588,85 @@ position:relative;
 }
 
 .calendar-block{
-  background-color: #d2e3ed;
-  padding: 0.5rem 0.5rem 2rem 0.5rem;
-  margin: 0rem 3rem;
-  text-align: center;
+  width: 20rem;
+  height: 15rem;
+  background-color: pink;
+  margin: 3rem 2rem;
+  vertical-align: middle;
+}
+
+#event-image1{
+  background: url('../img/updates_images/brewing_coffee.jpg') 0;
+  background-size: cover;
+}
+
+#event-image2{
+  background: url('../img/updates_images/festive_drinks.jpg') 0;
+  background-size: cover;
+}
+
+#event-image3{
+  background: url('../img/updates_images/customo_anniversary.jpg') 0;
+  background-size: cover;
 }
 
 .calendar-date{
-  font-size: 3rem;
-  padding: 1rem 5rem;
-  color: rgb(100, 100, 100);
-  background-color:white;
+  width: 90%;
+  font-size: 3.5rem;
+  color: rgba(55, 55, 55, 1);
+  background-color: rgba(250, 250, 250, 0.7);
+  padding: 0.3rem 0.5rem;
 }
 
 .event-description-block{
-  min-width:60%;
+  width:60%;
   min-height:20%;
+  margin: 1.3rem 2rem;
+}
+
+/*References Section.........................................  */
+#references-section{
+  max-width: 70%;
+  margin: 4rem auto;
+  letter-spacing: 1px;
+}
+
+.references-title{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  position:relative;
+}
+
+.general-references-title{
+  color: #606060;
+  font-weight: 700;
+  font-size: 1.25rem;
+  position:relative;
+}
+
+.general-references-info{
+  color: #909090;
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: italic;
+  position:relative;
+}
+
+@media (max-width: 60em) {
+  .events-container{
+    display: block;
+  }
+  .calendar-block{
+    width: 90%;
+    margin: 0rem auto;
+  }
+  .event-description-block{
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .calendar-date{
+    margin:auto;
+  }
 }

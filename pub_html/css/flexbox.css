@@ -10,7 +10,7 @@
 
   flex-wrap: wrap;
 
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
 
 }
 
@@ -33,7 +33,7 @@
 }
 
 .paragraph-block{
-  margin: 2rem 3rem;
+  margin: 1rem 2rem;
 }
 
 .margin-none{
@@ -86,6 +86,9 @@
 
 .container-feature-coffee{
   align-items: flex-start;
+  display: flex;
+  flex: 1 1 auto;
+  flex-basis: 5em;
 }
 
 .section-product-featured{
@@ -104,11 +107,11 @@
 .catalogue-container{
   align-items: flex-start;
   align-content: space-between;
+  display: flex!important;
 }
 
 .section-product-catalogue{
   align-content: space-around;
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -184,6 +187,10 @@
   }
   .section-my-cart{
     max-width: 95%!important;
+  }
+
+  .section-checkout{
+    width: 90%!important;
   }
 
 }
