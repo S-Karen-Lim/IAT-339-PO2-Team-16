@@ -216,6 +216,12 @@ position:relative;
   margin: 0 auto;
 }
 
+.contactus-paragraph{
+  font-size: 20px;
+  text-align: center;
+  color: #909090;
+}
+
 #subject-options{
   padding: .5rem;
   margin: .5rem;
