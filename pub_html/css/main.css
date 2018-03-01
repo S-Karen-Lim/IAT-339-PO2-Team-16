@@ -49,10 +49,10 @@ ul {
 
 .default-button{
   padding: 0.5rem 1.5rem;
-  margin: 0.3rem;
+  margin: 1rem 0rem;
   text-decoration: none;
   border-radius: 5px;
-  transition: all 0.2s ease-in 0.1s;
+  transition: all 0.3s ease-in 0.1s;
 
   background-color: white;
   box-shadow: 0px 8px 12px rgba(199,139,60, 0.3);
@@ -63,7 +63,7 @@ ul {
   border: 2px solid rgb(199,139,60);
   box-shadow: 0px 5px 10px rgba(110, 110, 110, 0.2);
   color: #212121;
-  transform: translateY(-7px);
+  /* transform: translateY(-7px); */
 }
 
 /* index styling */
@@ -132,7 +132,7 @@ position:relative;
   margin: 1rem 0rem;
 }
 
-/* BUTTON STYLING ////////////////////////////////////////////////////// */
+/* Index STYLING ////////////////////////////////////////////////////// */
 .block-learnAboutUs .main-nav-button a{
   color: black;
 }
