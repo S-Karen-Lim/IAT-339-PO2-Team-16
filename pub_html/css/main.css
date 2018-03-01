@@ -5,8 +5,7 @@ html, body{
 body {
 font-family: 'Lato', Verdana, sans-serif;
 background-color:#eeeeee;
-overflow: hidden;
-height: 100%;
+min-height: 100%;
 /* padding: 1rem 3rem; */
 }
 
