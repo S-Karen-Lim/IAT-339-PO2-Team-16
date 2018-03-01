@@ -1,6 +1,9 @@
-.footer-container{
-  margin: 0 auto;
-  text-align: center;
+.section-footer:before{
+  content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   height: 0;
 }
 
 .section-footer{
@@ -9,6 +12,17 @@
   padding-top: 0.5rem;
   margin-top: 2rem;
   background-color: #222222;
+}
+
+.sticky-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container{
+  margin: 0 auto;
+  text-align: center;
 }
 
 .nav-footer a {

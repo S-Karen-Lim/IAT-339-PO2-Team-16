@@ -9,8 +9,9 @@
   }
 
   .feature-heading{
-    width: 30%;
+    width: 20%;
     margin: 0rem auto;
+    flex: 0.3 0.5 auto!important;
   }
 
   .feature-heading p, .feature-coffee-block p{
