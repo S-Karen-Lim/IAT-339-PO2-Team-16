@@ -179,6 +179,17 @@ position:relative;
   background-color: #e89686;
 }
 
+/* CONTACT US PAGE /////////////////////////////////////// */
+#contact-us-img{
+  width: 90%;
+  height: 30vh;
+  margin: 1rem auto;
+  background-image: url("../img/contact_us_img.jpeg");
+  background-position:center;
+  background-clip: border-box;
+  background-size: cover;
+}
+
 /*Form box found in contact//////////////////////////////*/
 .form-box {
   background-color: #d2e3ed;
