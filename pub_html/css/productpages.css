@@ -1,207 +1,203 @@
-/* styling for the product feature page and product catalogue sections ////////////////////// */
+  /* styling for the product feature page and product catalogue sections ////////////////////// */
 
-.section-product-featured{
-  background-image: url("../img/productPage_background1.jpeg");
-  background-blend-mode: lighten;
-  background-clip: border-box;
-  background-size: cover;
-  color: white;
-}
+  .section-product-featured{
+    background-image: url("../img/productPage_background1.jpeg");
+    background-blend-mode: lighten;
+    background-clip: border-box;
+    background-size: cover;
+    color: white;
+  }
 
-.feature-heading{
-  width: 30%;
-  margin: 0rem auto;
-}
+  .feature-heading{
+    width: 30%;
+    margin: 0rem auto;
+  }
 
-.feature-heading p, .feature-coffee-block p{
-  padding: 1rem 0.2rem;
-  font-size: 1rem;
-  color: grey;
-  min-height: 20%;
-}
+  .feature-heading p, .feature-coffee-block p{
+    padding: 1rem 0.2rem;
+    font-size: 1rem;
+    color: grey;
+  }
 
-#header-product-catalogue{
-  width: 100%;
-}
+  #header-product-catalogue{
+    color: #454545;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    width: 100%;
+  }
 
-.feature-coffee-block{
-  height: 30rem;
-  max-width: 10rem;
-  background-color: rgba(238,238,238, 1);
-  display: inline-block;
-  position: relative;
-  margin-left: 0.5rem;
-}
+  .feature-coffee-block{
+    height: 30rem;
+    max-width: 10rem;
+    background-color: rgba(238,238,238, 1);
+    display: inline-block;
+  }
 
-.feature-product-img-container{
-  max-width: auto;
-  height: 60%;
-}
+  .feature-product-img-container{
+    max-width: auto;
+    height: 60%;
+  }
 
-.catalogue-coffee-block{
-  padding: 1rem;
-}
+  .catalogue-coffee-block{
+    padding: 1rem;
+  }
 
-.catalogue-coffee-block{
-  height: auto;
-  width: 13rem;
-  display: inline-block;
-  /* position: relative; */
-}
+  .catalogue-coffee-block{
+    height: auto;
+    width: 13rem;
+    display: inline-block;
+    /* position: relative; */
+  }
 
-.product-image-container{
-  height: 20rem;
-  width: 13rem;
-}
+  .product-image-container{
+    height: 20rem;
+    width: 13rem;
+  }
 
-.feature-coffee-block img, .product-image-container img{
-  height: 100%;
-  max-width: 100%;
-  object-position:top;
-  object-fit: cover;
-}
+  .feature-coffee-block img, .product-image-container img{
+    height: 100%;
+    max-width: 100%;
+    object-position:top;
+    object-fit: cover;
+  }
 
-.feature-coffee-button{
-  position: absolute;
-  bottom: 2rem;
-  left: 1rem;
-}
+  /* hover on image from: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 
-/* hover on image from: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+  .product-image-container:hover img {
+    opacity: 0.3;
+  }
 
-.product-image-container:hover img {
-  opacity: 0.3;
-}
+  .text-overlay-product a {
+    color: rgb(100, 100, 100);
+  }
 
-.text-overlay-product a {
-  color: rgb(100, 100, 100);
-}
+  .text-overlay-product{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
-.text-overlay-product{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
+  .product-image-container:hover .text-overlay-product{
+    opacity: 1;
+  }
 
-.product-image-container:hover .text-overlay-product{
-  opacity: 1;
-}
+  .product-coffee-title p{
+    margin-right: 2rem;
+  }
 
-.product-coffee-title p{
-  margin-right: 2rem;
-}
-
-/* product page detail styling ///////////////////////////////////////// */
-.product-detail-all-container{
-  width: 90%;
-  padding: 1rem;
-  margin: 4rem auto;
-  display: block;
-}
-
-.container-product-detail{
-  max-height: 50%;
-  /* margin: auto; */
-}
-
-.product-detail-img-container{
-margin-right: 1.5rem;
-}
-
-@media (max-width: 70em) {
-  .container-product-detail{
+  /* product page detail styling ///////////////////////////////////////// */
+  .product-detail-all-container{
+    width: 90%;
+    padding: 1rem;
+    margin: 4rem auto;
     display: block;
   }
-}
 
-.img-product-detail{
-  min-height: 100%;
-  max-width: 60%;
-  display: inline-block;
-}
+  .container-product-detail{
+    max-height: 50%;
+    /* margin: auto; */
+  }
 
-.img-product-detail-side{
-  max-width: 40%;
-  min-height: 100%;
-}
+  .product-detail-img-container{
+  margin-right: 1.5rem;
+  }
 
-.img-product-detail img, .img-product-detail-side img{
-  width: 100%;
-  margin-bottom: 1rem;
-}
+  @media (max-width: 70em) {
+    .container-product-detail{
+      display: block;
+    }
+  }
 
-.product-coffee-caption{
-  min-width: 40%;
-  border-top: 2px solid #c78b3c;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
-}
-
-.detail-product-title{
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.product-coffee-caption p{
-  font-size: 1rem;
-    margin: 2rem 0rem;
-}
-
-/* Review section /////////////////////////////////////// */
-
-.section-leave-review{
-  display: block;
-  min-width: inherit;
-  margin: 1rem auto;
-}
-
-/* citation: Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html */
-
-
-.rating {
-    overflow: hidden;
+  .img-product-detail{
+    min-height: 100%;
+    max-width: 60%;
     display: inline-block;
-}
+  }
 
-.rating-input {
-    float: right;
-    width: 26px;
-    height: 24px;
-    padding: 0;
-    margin: 0 0 0 -24px;
-    opacity: 0;
-}
+  .img-product-detail-side{
+    max-width: 40%;
+    min-height: 100%;
+  }
 
-.rating-star {
-    position: relative;
-    float: right;
+  .img-product-detail img, .img-product-detail-side img{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .product-coffee-caption{
+    min-width: 40%;
+    border-top: 2px solid #c78b3c;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail-product-title{
+      font-size: 2rem;
+      font-weight: bold;
+  }
+
+  .product-coffee-caption p{
+    font-size: 1rem;
+      margin: 2rem 0rem;
+  }
+
+  /* Review section /////////////////////////////////////// */
+
+  .section-leave-review{
     display: block;
-    width: 26px;
-    height: 26px;
-    background: url('../img/star_rating.png') 0 -26px;
-}
+    width: 60%;
+    min-width: inherit;
+    margin: 1rem auto;
+  }
 
-.rating:hover .rating-star:hover,
-.rating:hover .rating-star:hover ~ .rating-star,
-.rating-input:checked ~ .rating-star {
-    background-position: 0 0;
-}
+  /* citation: Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html */
 
-.rating-star,
-.rating:hover .rating-star {
-    position: relative;
-    float: right;
-    display: block;
-    width: 26px;
-    height: 26px;
-    background: url('../img/star_rating.png') 0 -26px;
-}
 
-@media query {
+  .rating {
+      overflow: hidden;
+      display: inline-block;
+  }
 
-}
+  .rating-input {
+      float: right;
+      width: 26px;
+      height: 24px;
+      padding: 0;
+      margin: 0 0 0 -24px;
+      opacity: 0;
+  }
+
+  .rating-star {
+      position: relative;
+      float: right;
+      display: block;
+      width: 26px;
+      height: 26px;
+      background: url('../img/star_rating.png') 0 -26px;
+  }
+
+  .rating:hover .rating-star:hover,
+  .rating:hover .rating-star:hover ~ .rating-star,
+  .rating-input:checked ~ .rating-star {
+      background-position: 0 0;
+  }
+
+  .rating-star,
+  .rating:hover .rating-star {
+      position: relative;
+      float: right;
+      display: block;
+      width: 26px;
+      height: 26px;
+      background: url('../img/star_rating.png') 0 -26px;
+  }
+
+  @media query {
+
+  }
