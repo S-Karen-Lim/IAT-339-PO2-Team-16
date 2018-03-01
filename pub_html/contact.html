@@ -80,14 +80,6 @@
     <div class="container contact-container">
         <div class="block">
           <div class="form-box">
-            <select id="subject-options" class="contact-form"> <!--This will be for our drop down selector for paper sizes-->
-              <option selected disabled>Select one</option>
-              <option class="subject-options-style" value="letter">Purchase inquiry</option>
-              <option class="subject-options-style" value="legal">About the company</option>
-              <option class="subject-options-style" value="tabloid">About our coffee</option>
-              <option class="subject-options-style" value="tabloid">Want to partner?</option>
-              <option class="subject-options-style" value="tabloid">Other</option>
-            </select>
             <label class="subheader3">FIRST NAME</label>
             <input type="text" name="firstname" class="contact-form"/>
             <label class="subheader3">LAST NAME</label>
@@ -100,8 +92,17 @@
         </div>
         <div class="block-2 form-box" id="contact-form-right">
           <div>
+            <label class="subheader3">SUBJECT</label>
+            <select id="subject-options" class="contact-form"> <!--This will be for our drop down selector for paper sizes-->
+              <option selected disabled>Select Subject:</option>
+              <option class="subject-options-style" value="letter">Purchase inquiry</option>
+              <option class="subject-options-style" value="legal">About the company</option>
+              <option class="subject-options-style" value="tabloid">About our coffee</option>
+              <option class="subject-options-style" value="tabloid">Want to partner?</option>
+              <option class="subject-options-style" value="tabloid">Other</option>
+            </select>
             <label class="subheader3">DETAILS</label>
-            <textarea class="message-box width-100" placeholder="Let us know what you think!"></textarea>
+            <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
           </div>
           <div id="contact-form-buttons">
               <button id="submitInput" class="default-button">Submit</button>

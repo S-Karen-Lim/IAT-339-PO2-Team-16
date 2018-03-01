@@ -194,30 +194,6 @@ position:relative;
   background-size: cover;
 }
 
-/*Form box found in contact//////////////////////////////*/
-.form-box {
-  background-color: #d2e3ed;
-  padding: 1.5rem;
-}
-
-.subheader3 {
-  display: block;
-  text-align: left;
-  letter-spacing: 0.15rem;
-  color: #5a5a5a;
-  font-size: 12px;
-  padding: 0.5rem 1rem;
-  font-weight: normal;
-}
-
-.contact-form {
-  padding: .3rem .5rem;
-  margin: 0.1rem 0.9rem;
-  width: 90%;
-  border:none;
-  border-radius: 5px;
-}
-
 .contact-title{
   color: #454545;
   font-weight: 900;
@@ -268,11 +244,35 @@ position:relative;
   padding: .5rem;
   margin: .5rem;
   color: #606060;
-  letter-spacing: .075rem;
+  /* letter-spacing: .075rem; */
 }
 
 .subject-options-style{
   color: #909090;
+}
+
+/*Form box styling //////////////////////////////*/
+.form-box {
+  background-color: #d2e3ed;
+  padding: 1.5rem;
+}
+
+.subheader3 {
+  display: block;
+  text-align: left;
+  letter-spacing: 0.15rem;
+  color: #5a5a5a;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: normal;
+}
+
+.contact-form {
+  padding: 0.9rem .5rem;
+  margin: 0.2rem 0.9rem;
+  width: 90%;
+  border:none;
+  border-radius: 3px;
 }
 
 .message-box {
@@ -282,7 +282,7 @@ position:relative;
   text-align: left;
   width: 90%;
   min-height: 7.5rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #contact-form-right{
@@ -293,6 +293,10 @@ position:relative;
 #contact-form-buttons{
   display: flex;
   justify-content: flex-end;
+}
+
+#submitInput{
+  margin-top: 2rem;
 }
 
 #resetInput{
@@ -311,26 +315,21 @@ position:relative;
 
 
 /* ABOUT COFFEE PAGE ///////////////////////////////////////////// */
-.introduction_to_coffee {
-  font-size: 15px;
-  text-align: center;
+.roast-text-block {
+  text-align: left;
+  min-width: 20rem;
+  margin: 0.5rem 1.3rem;
 }
 
+/* @media (max-width: 70em) {
+  .roast-text-container{
+    display: block;
+  }
+} */
 .products-hyperlink{
   text-align: center;
   margin-bottom: 2rem;
 }
-
-/* .products-hyperlink a{
-  text-transform: uppercase;
-  text-decoration: none;
-  color:
-  font-weight: 800;
-}
-
-.products-hyperlink a:hover, .products-hyperlink a:focus{
-
-} */
 
 .coffee_roast {
   color: #454545;
@@ -345,8 +344,8 @@ position:relative;
   letter-spacing: 1.5px;
   font-size: 15px;
   color: #303030;
-  text-align: center;
-  margin: 2rem;
+  text-align: left;
+  margin: 2rem 0;
 }
 
 .roast_paragraph{
@@ -355,7 +354,6 @@ position:relative;
   color: #454545;
   margin: 1.75rem;
 }
-
 
 #our-coffee{
   max-width: 70%;
@@ -375,6 +373,21 @@ position:relative;
   margin-top: 4rem;
 }
 
+.about-coffee-block{
+  min-width: 45%;
+  margin: 0 auto;
+}
+
+#about-coffee-block-img{
+  background-image: url("../img/dark_roast.jpg");
+  background-size: cover;
+  background-position: top;
+  min-width: 50%;
+  min-height: 10rem;
+  margin-right: 0.5rem;
+}
+
+/* cart page //////////////////////////////// */
 .section-my-cart{
   max-width: 80%;
   margin: 0 auto;
