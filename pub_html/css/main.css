@@ -47,6 +47,16 @@ ul {
   list-style-type: circle;
 }
 
+.in-text-link{
+  color: #c78b3c;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+
+.in-text-link:hover{
+  color: #fabe6f;
+}
+
 .default-button{
   padding: 0.5rem 1.5rem;
   margin: 1rem 0rem;
