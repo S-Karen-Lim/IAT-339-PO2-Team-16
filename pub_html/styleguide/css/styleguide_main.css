@@ -38,121 +38,47 @@
   colour: blue;
 }
 
-/* for code style */
-code{
-  background-color: rgb(230, 230, 230);
-  padding: 0.2rem;
+/* gid structure */
+.gridContainer{
+  background-color: #5a5a5a;
+}
+.gridBlock{
+  background-color: #edd7c8;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.5rem 0.5rem;
 }
 
-/* text  links */
-.a-textLink{
-  color: #e89686;
-  font-weight: 700;
-  text-decoration: none;
+/* colour swatches */
+.colourBlock{
+  width: 15%;
+  padding: 1rem;
+}
+.grey{
+  background-color: #222222;
+  color: white;
 }
 
-  .a-textLink:hover, .a-textLink:focus{
-    text-decoration: underline;
-  }
+.lightBlue{
+  background-color: #d2e3ed;
+}
 
-/* form stuff */
+.darkGrey{
+  background-color: #a39491;
+}
 
-  label, input, textarea{
-    display: block;
-    width: 30rem;
-    vertical-align: text-top;
-    margin: 1rem 1rem;
-  }
+.lightbeige{
+  background-color: #fabe6f;
+}
 
-  label{
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: white;
-  }
+.smokyorange{
+  background-color: #c78b3c;
+}
 
-  textarea{
-    height: 4rem;
-  }
+.camel{
+  background-color: #c2b59b;
+}
 
-  form{
-    background-clip: border-box;
-    padding: 0.3rem 0rem;
-    background-color: #d2e3ed;
-  }
-
-  /* product listing styling */
-  .imgListingSample{
-    width: 10rem;
-  }
-
-  .listingCaption{
-    display:inline-block;
-    margin-left: 0.5rem;
-  }
-
-  .listingContainer{
-    background-color: #e3e3e5;
-    display: inline-block;
-  }
-
-  .listingButton{
-    display: block;
-    border-bottom: 2px solid #5a5a5a;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-    vertical-align: text-top;
-    padding: 0.3rem 0.7rem;
-    margin: 0.5rem 1rem;
-    background-color: transparent;
-    transition: 0.5s ease-out;
-    color: black;
-  }
-
-  .listingButton:hover, .listingButton:focus{
-    background-color: #5a5a5a;
-    color: white;
-    border-bottom: 2px solid #ffffff;
-  }
-
-  /* gid structure */
-  .gridContainer{
-    background-color: #5a5a5a;
-  }
-  .gridBlock{
-    background-color: #edd7c8;
-    padding: 1rem;
-    text-align: center;
-    margin: 0.5rem 0.5rem;
-  }
-
-  /* colour swatches */
-  .colourBlock{
-    width: 15%;
-    padding: 1rem;
-  }
-  .grey{
-    background-color: #e3e3e5;
-  }
-
-  .lightBlue{
-    background-color: #d2e3ed;
-  }
-
-  .darkGrey{
-    background-color: #a39491;
-  }
-
-  .superDarkGrey{
-    background-color: #5a5a5a;
-  }
-
-  .mauve{
-    background-color: #e89686;
-  }
-
-  .beige{
-    background-color: #edd7c8;
-  }
+#other-brand-elements{
+  margin-bottom: 5rem;
+}
