@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/styleguide_main.css" type="text/css" />
     <link rel="stylesheet" href="../css/productpages.css" type="text/css" />
   <link rel="stylesheet" href="../css/header.css" type="text/css" />
-  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link rel="stylesheet" href="../css/footer.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <title>Styleguide | Customo Coffee</title>
 </head>
@@ -88,14 +88,15 @@
 
     <!-- <div class="block code-block"> -->
       <p class="id-cssSelector"><strong>CSS Selector:</strong> .container, .block, .gridContainer, .gridBlock</p>
-      <code>  &lt;div class=&quot;gridContainer&quot;&gt;&lt;div class=&quot;container&quot;&gt;
-          &lt;div class=&quot;block gridBlock&quot;&gt;
-            &lt;h3&gt;Block 1&lt;/h3&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;block gridBlock&quot;&gt;
-            &lt;h3&gt;Block 2&lt;/h3&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
+      <code>  &lt;div class=&quot;gridContainer&quot;&gt;<br/>
+        &lt;div class=&quot;container&quot;&gt;<br/>
+          &lt;div class=&quot;block gridBlock&quot;&gt;<br/>
+            &lt;h3&gt;Block 1&lt;/h3&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class=&quot;block gridBlock&quot;&gt;<br/>
+            &lt;h3&gt;Block 2&lt;/h3&gt;<br/>
+          &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
       &lt;/div&gt;</code>
     <!-- </div>
   </div> -->
@@ -139,7 +140,24 @@
       <h4>Text Area Input</h4>
       <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
 
-      <p<strong>CSS Selector:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <p><strong>CSS Selector:</strong></p>
       <p class="class-cssSelector">.message-box</p>
       <code>&lt;textarea class=&quot;message-box&quot; placeholder=&quot;Let us know what you think!&quot;&gt;&lt;/textarea&gt;</code>
 
@@ -154,55 +172,46 @@
         <option class="subject-options-style" value="">Other</option>
       </select>
 
-      <p><strong>CSS Selectors:</strong>
+      <p><strong>CSS Selectors:</strong></p>
         <p class="class-cssSelector">
           .contact-form
         </p>
         <p class="id-cssSelector">#subject-options</p>
 
       <code>
-        &lt;select id=&quot;subject-options&quot; class=&quot;contact-form&quot;&gt;
-          &lt;option selected disabled&gt;Select Subject:&lt;/option&gt;
-          &lt;option class=&quot;subject-options-style&quot; value=&quot;&quot;&gt;Coffee&lt;/option&gt;
-          &lt;option class=&quot;subject-options-style&quot; value=&quot;&quot;&gt;Robusta&lt;/option&gt;
-          &lt;option class=&quot;subject-options-style&quot; value=&quot;&quot;&gt;Arabica&lt;/option&gt;
-          &lt;option class=&quot;subject-options-style&quot; value=&quot;&quot;&gt;Other&lt;/option&gt;
+        &lt;select id=&quot;subject-options&quot; class=&quot;contact-form&quot;&gt;<br/>
+          &lt;option selected disabled&gt;Select Subject:&lt;/option&gt;<br/>
+          &lt;option class=&quot;subject-options-style&quot; value=&quot;&quot;&gt;Coffee&lt;/option&gt;<br/>
+          ...<br/>
         &lt;/select&gt;
       </code>
 
     <!-- ............................................................ -->
       <h4>Star Review Scoring</h4>
-      <span class="rating">
-        <input type="radio" class="rating-input"id="rating-input-1-5" name="rating-input-1">
+      <span class="rating" role="radiogroup">
+        <input type="radio" class="rating-input"id="rating-input-1-5" name="rating-input-1" role="radio">
           <label for="rating-input-1-5" class="rating-star"></label>
-        <input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">
+        <input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1" role="radio">
           <label for="rating-input-1-4" class="rating-star"></label>
-        <input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">
+        <input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1" role="radio">
           <label for="rating-input-1-3" class="rating-star"></label>
-       <input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1">
+       <input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1" role="radio">
         <label for="rating-input-1-2" class="rating-star"></label>
-       <input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
+       <input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1" role="radio">
         <label for="rating-input-1-1" class="rating-star"></label>
       </span>
 
-      <p><strong>CSS Selectors:</strong>
+      <p><strong>CSS Selectors:</strong></p>
         <p class="class-cssSelector">
           .rating .rating-input
         </p>
         <p class="id-cssSelector">#subject-options</p>
 
       <code>
-        &lt;span class=&quot;rating&quot;&gt;
-          &lt;input type=&quot;radio&quot; class=&quot;rating-input&quot;id=&quot;rating-input-1-5&quot; name=&quot;rating-input-1&quot;&gt;
-            &lt;label for=&quot;rating-input-1-5&quot; class=&quot;rating-star&quot;&gt;&lt;/label&gt;
-          &lt;input type=&quot;radio&quot; class=&quot;rating-input&quot; id=&quot;rating-input-1-4&quot; name=&quot;rating-input-1&quot;&gt;
-            &lt;label for=&quot;rating-input-1-4&quot; class=&quot;rating-star&quot;&gt;&lt;/label&gt;
-          &lt;input type=&quot;radio&quot; class=&quot;rating-input&quot; id=&quot;rating-input-1-3&quot; name=&quot;rating-input-1&quot;&gt;
-            &lt;label for=&quot;rating-input-1-3&quot; class=&quot;rating-star&quot;&gt;&lt;/label&gt;
-         &lt;input type=&quot;radio&quot; class=&quot;rating-input&quot; id=&quot;rating-input-1-2&quot; name=&quot;rating-input-1&quot;&gt;
-          &lt;label for=&quot;rating-input-1-2&quot; class=&quot;rating-star&quot;&gt;&lt;/label&gt;
-         &lt;input type=&quot;radio&quot; class=&quot;rating-input&quot; id=&quot;rating-input-1-1&quot; name=&quot;rating-input-1&quot;&gt;
-          &lt;label for=&quot;rating-input-1-1&quot; class=&quot;rating-star&quot;&gt;&lt;/label&gt;
+        &lt;span class=&quot;rating&quot;role=&quot;radiogroup&quot;&gt;<br/>
+          &lt;input type=&quot;radio&quot; class=&quot;rating-input&quot;id=&quot;rating-input-1-5&quot; name=&quot;rating-input-1&quot; role=&quot;radio&quot;&gt; <br/>
+          ...
+        </br/>
         &lt;/span&gt;
       </code>
 </section>
@@ -211,11 +220,150 @@
 <!-- ............................................................ -->
 <section class="styleguide-section" id="navigation-section">
   <h2>Navigation</h2>
+    <h3>Header</h3>
+    <div>
+      <header class="section-header">
+        <div class="container width-90 header-container">
+          <div class="block">
+            <nav class="nav-main container">
+                <div class="nav-left block">
+                    <a href="#"><img src="../img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
+                </div>
+                <div class="nav-center block-2">
+                  <nav>
+                    <a href="#">one</a>
+                    <a href="#">two</a>
+                    <a href="#">three</a>
+                  </nav>
+                </div>
+                <div class="nav-right block">
+                    <a href="#"><img src="../img/cart_icon.png" alt="an icon for my cart" class="nav-my-cart"/>Cart</a>
+                </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
 
+    <p><strong>CSS Selectors:</strong></p>
+      <p class="class-cssSelector">
+        .section-header .header-container .nav-main .nav-left .nav-home .nav-center .nav-right .nav-my-cart
+      </p>
+
+      <!-- ............................................................ -->
+    <h3>Footer</h3>
+    <footer class="section-footer">
+        <div class="container width-70 footer-container">
+          <div class="block">
+            <nav class="nav-footer">
+                  <a href="#">Style Guide</a><span> | </span>
+                  <a href="#">References</a><span> | </span>
+                  <a href="#">Git Repository</a>
+            </nav>
+          </div>
+        </div>
+    </footer>
+
+    <p><strong>CSS Selectors:</strong>
+      <p class="class-cssSelector">
+        .section-footer .footer-container .nav-footer
+      </p>
+
+      <code>
+        &lt;footer class=&quot;section-footer&quot;&gt;</br>
+            &lt;div class=&quot;container width-70 footer-container&quot;&gt;</br>
+              &lt;div class=&quot;block&quot;&gt;</br>
+                &lt;nav class=&quot;nav-footer&quot;&gt;</br>
+                      &lt;a href=&quot;#&quot;&gt;Style Guide&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;</br>
+                      &lt;a href=&quot;#&quot;&gt;References&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;</br>
+                      &lt;a href=&quot;#&quot;&gt;Git Repository&lt;/a&gt;</br>
+                &lt;/nav&gt;</br>
+              &lt;/div&gt;</br>
+            &lt;/div&gt;</br>
+        &lt;/footer&gt;</br>
+      </code>
 
 </section>
 
 <section class="styleguide-section" id="text-elements-section">
+  <h2>Text Elements</h2>
+    <h3>Headings</h3>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+
+      <p><strong>CSS Selectors:</strong></p>
+        <p class="class-cssSelector">
+          h1, h2, h3, h4
+        </p>
+
+        <code>
+          &lt;h1&gt;Heading 1&lt;/h1&gt;</br>
+          &lt;h2&gt;Heading 2&lt;/h2&gt;</br>
+          &lt;h3&gt;Heading 3&lt;/h3&gt;</br>
+          &lt;h4&gt;Heading 4&lt;/h4&gt;</br>
+        </code>
+  <!-- ............................................................ -->
+    <h3>Paragraph Text</h3>
+    <p>
+      Coffee has a naturally complex botanical profile, with at least 1,000 natural compounds in the bean (including caffeine) and another 300 that are created during the roasting process. Scientists have linked a number of them, including some strong antioxidants, with a host of physiological benefits. Research has shown that moderate coffee consumption which is around 3-5 cups daily may be associated with many positive effects, such as the ones listed below:
+    </p>
+
+    <p><strong>CSS Selectors:</strong></p>
+      <p class="class-cssSelector">
+        p
+      </p>
+
+      <code>
+        &lt;p&gt;Coffee has a naturally complex botanical profile, with...&lt;/p&gt;</br>
+      </code>
+
+  <!-- ............................................................ -->
+    <h3>List Elements</h3>
+      <h4>Ordered List</h4>
+      <ol id="coffee_facts">
+        <li>
+          Liver disease prevention
+        </li>
+        <li>
+          Improved cognitive function in older adults
+        </li>
+        <li>
+          Sharper memory
+        </li>
+        <li>
+          Increased athletic endurance
+        </li>
+        <li>
+          Reduced athletic endurance
+        </li>
+        <li>
+          Longevity
+        </li>
+      </ol>
+        <!-- ............................................................ -->
+      <h4>Unordered List</h4>
+        <ul id="coffee_facts">
+          <li>
+            Liver disease prevention
+          </li>
+          <li>
+            Improved cognitive function in older adults
+          </li>
+          <li>
+            Sharper memory
+          </li>
+          <li>
+            Increased athletic endurance
+          </li>
+          <li>
+            Reduced athletic endurance
+          </li>
+          <li>
+            Longevity
+          </li>
+        </ul>
 
 </section>
 

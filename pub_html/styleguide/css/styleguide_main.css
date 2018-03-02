@@ -31,11 +31,11 @@
 }
 
 .class-cssSelector{
-  colour:;
+  font-colour: rgb(239, 122, 133);
 }
 
 .id-cssSelector{
-  colour:;
+  colour: blue;
 }
 
 /* for code style */
