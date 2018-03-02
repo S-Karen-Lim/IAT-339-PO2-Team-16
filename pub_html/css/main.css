@@ -624,6 +624,36 @@ position:relative;
   margin: 1.3rem 2rem;
 }
 
+/*References Section.........................................  */
+#references-section{
+  max-width: 70%;
+  margin: 4rem auto;
+  letter-spacing: 1px;
+}
+
+.references-title{
+  color: #454545;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  position:relative;
+}
+
+.general-references-title{
+  color: #606060;
+  font-weight: 700;
+  font-size: 1.25rem;
+  position:relative;
+}
+
+.general-references-info{
+  color: #909090;
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: italic;
+  position:relative;
+}
+
 @media (max-width: 60em) {
   .events-container{
     display: block;
