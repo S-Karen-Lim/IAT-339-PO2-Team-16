@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/header.css" type="text/css" />
   <link rel="stylesheet" href="css/footer.css" type="text/css" />
   <link rel="stylesheet" href="css/main.css" type="text/css" />
-  <link rel="javascript" href="js/header-hamburger.css" type="javascript" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <title>Contact Us | Customo Coffee</title>
@@ -21,14 +20,14 @@
       <div class="block">
         <nav class="nav-main container">
 
-              <a href="javascript:void(0)" class="hidden hamburger-menu-container" aria-hidden="true"  id="nav-center-toggle" aria-controls="nav-items">
+              <a href="javascript:void(0)" class="hidden hamburger-menu-container" aria-hidden="true"  id="nav-center-toggle" aria-controls="main-nav-items">
                 <img src="img/hamburger.png" alt="icon for hamburger menu">
               </a>
 
-            <div class="nav-left block">
+            <div class="nav-left block" role="menu">
                 <a href="index.html"><img src="img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
             </div>
-            <div class="nav-center block-2">
+            <div class="nav-center block-2" role="menu">
               <nav id="main-nav-items" class="side-nav">
                 <a href="javascript:void(0)" id="side-nav-close-button" class="hidden" aria-hidden="true">&times;</a>
                 <a href="about-coffee.html">Coffee 101</a>
@@ -37,16 +36,16 @@
                 <a href="contact.html">Contact</a>
               </nav>
             </div>
-            <div class="nav-right block">
+            <div class="nav-right block" role="menu">
                 <a href="my-cart.html"><img src="img/cart_icon.png" alt="a cart icon" class="nav-my-cart"/>
                   <span class="mycart-text">Cart</span></a>
             </div>
-        </nav>
+          </nav>
+        </div>
       </div>
-  </div>
 
-  <script src="js/header-hamburger.js"></script>
-</header>
+      <script src="js/header-hamburger.js"></script>
+    </header>
 
   <section id="receipt-container">
     <h2 class="receipt-title">Receipt (3/3)</h2>
