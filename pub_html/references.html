@@ -14,28 +14,38 @@
 </head>
 
 <body>
+  <!-- HEADER // -->
   <header class="section-header">
-    <div class="container width-90 header-container">
+    <div class="container width-100 header-container">
       <div class="block">
         <nav class="nav-main container">
-            <div class="nav-left block">
+
+              <a href="javascript:void(0)" class="hidden hamburger-menu-container" aria-hidden="true"  id="nav-center-toggle" aria-controls="main-nav-items">
+                <img src="img/hamburger.png" alt="icon for hamburger menu">
+              </a>
+
+            <div class="nav-left block" role="menu">
                 <a href="index.html"><img src="img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
             </div>
-            <div class="nav-center block-2">
-              <nav>
+            <div class="nav-center block-2" role="menu">
+              <nav id="main-nav-items" class="side-nav">
+                <a href="javascript:void(0)" id="side-nav-close-button" class="hidden" aria-hidden="true">&times;</a>
                 <a href="about-coffee.html">Coffee 101</a>
                 <a href="products.html">Store</a>
                 <a href="updates.html">Events</a>
                 <a href="contact.html">Contact</a>
               </nav>
             </div>
-            <div class="nav-right block">
-                <a href="my-cart.html"><img src="img/cart_icon.png" alt="an icon for my cart" class="nav-my-cart"/>Cart</a>
+            <div class="nav-right block" role="menu">
+                <a href="my-cart.html"><img src="img/cart_icon.png" alt="a cart icon" class="nav-my-cart"/>
+                  <span class="mycart-text">Cart</span></a>
             </div>
-        </nav>
+          </nav>
+        </div>
       </div>
-  </div>
-</header>
+
+      <script src="js/header-hamburger.js"></script>
+    </header>
 
 
 <section id="references-section">
