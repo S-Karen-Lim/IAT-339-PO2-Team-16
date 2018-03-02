@@ -237,6 +237,11 @@
     }
 
     .container-feature-coffee{
-      margin-top: 3rem;
+      margin-top: 1rem;
+    }
+
+    .feature-coffee-block{
+      margin-top: 2rem;
+      margin-bottom: 1rem;
     }
   }
