@@ -48,69 +48,73 @@
       <script src="js/header-hamburger.js"></script>
     </header>
 
-<section class="section-product-detail">
-  <a href="products.html" class="default-button">Back to Catalogue</a>
+    <div class="container product-detail-all-container">
+      <a href="products.html" class="default-button">Back to Catalogue</a>
+      <section class="container container-product-detail">
 
-  <div class="container container-product-detail">
-
-    <figcaption class="product-coffee-caption block">
-      <h2>Balzac's Coffee</h2>
-      <h3>Marble Roast: Marble Roast</h3>
-
-      <p class="detail-product-title">$8.99</p>
-      <p><strong>Cup Profile: </strong>Marble Roast™ marries all three signature roasts into one incredible blend. The resulting effect creates a veritable celebration of flavour in your cup.</p>
-
-      <p><strong>About the Roaster: </strong>Balzac's values are infused with everything our customers experience in our cafés. Artisanal, Sustainable, Local and Natural are the four cornerstones of our business practices. Each product is thoughtfully and diligently sourced. While we endeavour to keep an eye on efficiency and affordability, we will not take shortcuts with our quality or preparation techniques. We strive to offer 'Slow Food' prepared quickly, not 'Fast Food'. <br />
-
-        Balzac's has been offering Fair Trade Organic coffee, sugar and cocoa since 1997 and all milk used in our beverage service is organic and locally sourced. </p>
-
-      <a href="my-cart.html" class="default-button">Add to Cart</a>
-    </figcaption>
-
-    <div class="block img-product-detail">
-        <img src="img/featureCoffee2_BalzacsCoffee/balzacs1.jpg" alt="cultura coffee bag 1">
-    </div>
-
-    <div class="block img-product-detail-side">
-      <img src="img/featureCoffee2_BalzacsCoffee/balzacs2.jpg" alt="cultura coffee bag 2">
-      <img src="img/featureCoffee2_BalzacsCoffee/balzacs3.jpg" alt="cultura coffee detail shot">
-    </div>
-
-  </div>
-</section>
-
-<section class="section-leave-review">
-    <div class="section-contact-us">
-      <h3>Leave a Review!</h3>
-          <div class="form-box">
-             <!-- citation: star rating from codepen: https://codepen.io/jamesbarnett/pen/vlpkh  -->
-            <fieldset class="rating">
-              <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
-              <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-              <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-              <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-              <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
-              <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-              <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-              <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-              <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-              <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-            </fieldset>
-
-            <label class="subheader3">Name</label>
-            <input type="text" name="firstname" class="contact-form"/>
-
-          <div>
-            <label class="subheader3">Tell us about your thoughts on this Coffee!</label>
-            <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
+          <div class="block product-detail-img-container">
+            <div class="img-product-detail">
+                <img src="img/featureCoffee2_BalzacsCoffee/balzacs1.jpg" alt="cultura coffee bag 1">
+            </div>
+            <div class="img-product-detail-side pull-right">
+              <img src="img/featureCoffee2_BalzacsCoffee/balzacs2.jpg" alt="cultura coffee bag 2">
+              <img src="img/featureCoffee2_BalzacsCoffee/balzacs3.jpg" alt="cultura coffee detail shot">
+            </div>
           </div>
-          <div id="contact-form-buttons">
-              <button id="submitInput" class="default-button">Submit</button>
-          </div>
-        </div>
-    </div>
 
-</section>
+          <div class="product-coffee-caption block">
+            <h2>Balzac's Coffee</h2>
+            <h3>Marble Roast: Marble Roast</h3>
+            <p class="detail-product-title">$8.99</p>
+            <p><strong>Cup Profile: </strong>Marble Roast™ marries all three signature
+              roasts into one incredible blend. The resulting effect creates a veritable
+              celebration of flavour in your cup.</p>
+            <p><strong>About the Roaster: </strong>Balzac's values are infused with everything
+              our customers experience in our cafés. Artisanal, Sustainable, Local and Natural
+              are the four cornerstones of our business practices. Each product is thoughtfully
+              and diligently sourced. While we endeavour to keep an eye on efficiency and affordability,
+              we will not take shortcuts with our quality or preparation techniques. We strive to
+              offer 'Slow Food' prepared quickly, not 'Fast Food'. <br />
+
+              Balzac's has been offering Fair Trade Organic coffee, sugar and cocoa since
+              1997 and all milk used in our beverage service is organic and locally sourced. </p>
+              <a href="my-cart.html" class="default-button">Add to Cart</a>
+          </div>
+
+      </section>
+
+      <section class="section-leave-review block">
+          <!-- <div class="section-contact-us"> -->
+            <h2>Leave a Review!</h2>
+                <div class="form-box">
+                <!-- Pure CSS star rating https://www.everythingfrontend.com/posts/star-rating-input-pure-css.html -->
+
+                  <span class="rating">
+                    <input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
+                      <label for="rating-input-1-5" class="rating-star"></label>
+                    <input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">
+                      <label for="rating-input-1-4" class="rating-star"></label>
+                    <input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">
+                      <label for="rating-input-1-3" class="rating-star"></label>
+                   <input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1">
+                    <label for="rating-input-1-2" class="rating-star"></label>
+                   <input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
+                    <label for="rating-input-1-1" class="rating-star"></label>
+                  </span>
+
+                  <label class="subheader3">Name</label>
+                  <input type="text" name="firstname" class="contact-form"/>
+
+                <div>
+                  <label class="subheader3">Tell us about your thoughts on this Coffee!</label>
+                  <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
+                </div>
+                    <button class="default-button">Submit</button>
+              </div>
+            <!-- </div> -->
+      </section>
+
+    </div>
 
 
 <!-- FOOTER ////////////////////////////////////////////////////////////////////// -->
