@@ -1,15 +1,4 @@
 <!DOCTYPE HTML>
-
-<!-- Notes:
-
-  (Created by Shenghui Karen Lim, 301245159)
-
-  All class and id tags indicate the type of tag and a semantic name.
-  i.e.
-    elements start with id="e-nameName". Otherwise, things like containers
-    or more defined semantic name will all commonly start with something like: class="container-nameName"
--->
-
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -41,8 +30,8 @@
               <a href="#interactive-elements-section">Interactive</a>
               <a href="#navigation-section">Navigation</a>
               <a href="#text-elements-section">Text</a>
-              <a href="#">Content</a>
-              <a href="#">Other Brand</a>
+              <a href="#sample-content-section">Content</a>
+              <a href="#other-brand-elements">Other Brand</a>
             </nav>
           </div>
       </nav>
@@ -87,7 +76,9 @@
     <!-- </div> -->
 
     <!-- <div class="block code-block"> -->
-      <p class="id-cssSelector"><strong>CSS Selector:</strong> .container, .block, .gridContainer, .gridBlock</p>
+      <p>
+        <strong>CSS Selector:</strong></p>
+        <p class="id-cssSelector">.container, .block, .gridContainer, .gridBlock</p>
       <code>  &lt;div class=&quot;gridContainer&quot;&gt;<br/>
         &lt;div class=&quot;container&quot;&gt;<br/>
           &lt;div class=&quot;block gridBlock&quot;&gt;<br/>
@@ -112,7 +103,8 @@
           Seventy percent of coffee beans are Arabica. Although less popular, <a class="in-text-link">Robusta</a> is slightly more bitter and has twice as much caffeine.
         </p>
 
-        <p class="id-cssSelector"><strong>CSS Selector:</strong> .in-text-link</p>
+        <p><strong>CSS Selector:</strong>
+          <p class="class-cssSelector">.in-text-link</p>
         <code>&lt;a class=&quot;.in-text-link&quot;&gt;Robusta&lt;/a&gt;</code>
       <!-- </div> -->
 
@@ -132,30 +124,13 @@
       <label class="subheader3">LABEL HERE</label>
       <input type="text" name="firstname" class="contact-form"/>
 
-      <p><strong>CSS Selector:</strong> </p>
+      <p><strong>CSS Selector:</strong></p>
       <p class="class-cssSelector">.contact-form</p>
       <code>&lt;input type=&quot;text&quot; name=&quot;firstname&quot; class=&quot;contact-form&quot;&gt;/&gt;</code>
 
 <!-- ............................................................ -->
       <h4>Text Area Input</h4>
       <textarea class="message-box" placeholder="Let us know what you think!"></textarea>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <p><strong>CSS Selector:</strong></p>
       <p class="class-cssSelector">.message-box</p>
@@ -322,7 +297,7 @@
   <!-- ............................................................ -->
     <h3>List Elements</h3>
       <h4>Ordered List</h4>
-      <ol id="coffee_facts">
+      <ol>
         <li>
           Liver disease prevention
         </li>
@@ -342,9 +317,25 @@
           Longevity
         </li>
       </ol>
+
+      <p><strong>CSS Selectors:</strong></p>
+        <p class="id-cssSelector">
+          ol, li
+        </p>
+
+        <code>
+          &lt;ol&gt;</br>
+            &lt;li&gt;</br>
+              Liver disease prevention
+            &lt;/li&gt;</br>
+            &lt;li&gt;</br>
+              ...</br>
+            &lt;/li&gt;</br>
+          &lt;/ol&gt;</br>
+        </code>
         <!-- ............................................................ -->
       <h4>Unordered List</h4>
-        <ul id="coffee_facts">
+        <ul>
           <li>
             Liver disease prevention
           </li>
@@ -365,194 +356,42 @@
           </li>
         </ul>
 
+        <p><strong>CSS Selectors:</strong></p>
+          <p class="id-cssSelector">
+            ul, li
+          </p>
+
+          <code>
+            &lt;ul&gt;</br>
+              &lt;li&gt;</br>
+                Liver disease prevention
+              &lt;/li&gt;</br>
+              &lt;li&gt;</br>
+                ...</br>
+              &lt;/li&gt;</br>
+            &lt;/ul&gt;</br>
+          </code>
+
 </section>
 
 
+<!-- ............................................................ -->
+<section class="styleguide-section" id="sample-content-section">
+  <h2>Sample Product Content</h2>
+  <p>
+    We strive to use clear, intuitive language in all our content. We parrticularly chose our imagery to provide supporting branding and be synonymous in atmosphere and tone with our text.
+  </p>
 
-        <div class="container">
-          <div class="block">
-            <h3>Submit & Reset Button for Forms</h3>
-              <form method="post" action="#">
-                <label for="formName">Name:</label>
-                  <input type="text" id="formName" placeholder="Jane Doe">
+  <h3>Sample Product Listing</h3>
+  
 
-                <label for="formSubject">Subject:</label>
-                  <input type="text" id="formSubject" placeholder="Title for your comment">
+  <h3>Sample Imagery</h3>
 
-                <label for="formComment">Talk about something:</label>
-                  <textarea id="formComment" placeholder="Add your comment here:"></textarea>
-                </form>
+</section>
 
-                <button id="resetInput">Reset Form</button>
-                <button id="submitInput">submit your comment</button>
+<section class="styleguide-section" id="other-brand-elements">
 
-                <p class="id-cssSelector"><strong>CSS Selector:</strong> #resetInput and #submitInput</p>
-
-                <code>&lt;button id=&quot;resetInput&quot;&gt;Reset Form&lt;/button&gt;</code>
-            </div>
-
-          <div class="block">
-            <h3>Text Input Field & Label</h3>
-              <form action="#">
-                <label for="formComment">Talk about something:</label>
-                  <textarea placeholder="Please place another comment here?"></textarea>
-              </form>
-              <p class="id-cssSelector"><strong>CSS Selector:</strong> #formComment</p>
-
-              <code>&lt;form action=&quot;#&quot;&gt;
-                &lt;label for=&quot;formComment&quot;&gt;Comment:&lt;/label&gt; &lt;textarea id=&quot;formComment&quot;&gt;&lt;/textarea&gt;
-              &lt;/form&gt;</code>
-
-          </div>
-        </div> <!-- end of container -->
-
-    </section>
-
-
-  <!-- Text Elements ................................ -->
-    <section id="section-textElements">
-      <h2>Text Elements</h2>
-
-      <div class="container">
-        <div class="block">
-          <h3>Headers</h3>
-            <h1>TITLE HEADERS LVL 1</h1>
-            <h2>Title Sub-Headers LVL 2</h2>
-            <h3>Section Heads LVL 3</h3>
-
-            <p class="id-cssSelector"><strong>CSS Selector:</strong> h1, h2, h3</p>
-            <code>&lt;h1&gt;TITLE HEADERS LVL 1&lt;/h1&gt;
-            &lt;h2&gt;Title Sub-Headers LVL 2&lt;/2&gt;
-            &lt;h3&gt;Section Heads LVL 3&lt;/h3&gt;</code>
-        </div>
-
-        <div class="block">
-          <h3>Body Paragraph</h3>
-            <p>
-              Coffee was first banned in Mecca in 1511 because leaders believed it stimulated radical thinking. And, 16th century Italian clergymen tried to ban coffee because they believed it to be "satanic." However, Pope Clement VII loved coffee so much that he lifted the ban and had coffee baptized in 1600. But Ottoman leader Murad IV took it even further when he ascended the throne in 1623 by creating the first punishments for drinking coffee, which included beatings and being thrown into the sea.
-              In 1746, the Swedish government made it illegal to even have coffee paraphenalia, including cups and dishes. And finally, in 1777, Frederick the Great of Prussia issued a manifesto declaring beer's superiority over coffee because he believed it interfered with the country's beer consumption.
-            </p>
-
-            <p class="id-cssSelector"><strong>CSS Selector:</strong> p</p>
-
-            <code>&lt;p&gt;many words here...&lt;/p&gt; </code>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="block">
-          <h3>Bulleted List</h3>
-          <ul>
-            <li>Coffee is brown.
-            </li>
-            <li>
-              Coffee is hot.
-            </li>
-            <li>
-              Coffee tastes good.
-            </li>
-          </ul>
-
-          <p class="id-cssSelector"><strong>CSS Selector:</strong> n/a</p>
-          <code>&lt;p id=&quot;body_lvl1&quot;&gt;many words here...&lt;/p&gt;</code>
-        </div>
-
-          <div class="block">
-            <h3>Numbered List</h3>
-              <ol>
-                <li>
-                  Good is the coffee tasting!
-                </li>
-                <li>
-                  Hot is the coffee!
-                </li>
-                <li>
-                  Yes, Brown is the coffee too!
-                </li>
-              </ol>
-              <p class="id-cssSelector"><strong>CSS Selector:</strong> n/article</p>
-
-              <code>&lt;p id=&quot;body_lvl1&quot;&gt;many words here...&lt;/p&gt;</code>
-          </div>
-        </div>
-    </section>
-
-
-  <!-- Combined Elements ............................ -->
-    <section id="section-combinedElements">
-      <h2>Combined Elements</h2>
-
-      <div class="container">
-        <div class="block">
-          <h3>Main Navigation</h3>
-          <nav class="nav-main container">
-            <ul>
-              <li>
-                <a href="#">Menu Button 1</a>
-              </li>
-              <li>
-                <a href="#">Menu Button 2</a>
-              </li>
-              <li>
-                <a href="#">Menu Button 3</a>
-              </li>
-            </ul>
-          </nav>
-
-          <p class="id-cssSelector"><strong>CSS Selector:</strong> .nav-main</p>
-
-          <code>&lt;nav class=&quot;nav-main container&quot;&gt;
-          &lt;ul&gt;
-              &lt;li&gt;
-                &lt;a href=&quot;#&quot;&gt;Menu Button 1&lt;/a&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/nav&gt;</code>
-        </div>
-
-        <div class="block">
-          <h3>Product Listing</h3>
-          <div class="container listingContainer">
-            <div class="block">
-                <img class="imgListingSample" src="imgs/coffee_search_packaging.jpg" alt="coffee listing img"/>
-                  <p class="listingCaption">
-                    <strong> Medium roast</strong> <br />
-                    Arabica beans from Ethiopia, hints of chocolate, nut, and blueberry
-                  </p>
-                  <a class="listingButton">$4.50 CAD ></a>
-            </div>
-
-            <div class="block">
-                <img class="imgListingSample" src="imgs/coffee_search_packaging.jpg" alt="coffee listing img" />
-                  <p class="listingCaption">
-                    <strong> Dark roast</strong> <br />
-                    Arabica beans from Indonesia, well rounded blend of deep flavors, and a hint of tobacco.
-                  </p>
-                  <a class="listingButton">$3.50 CAD ></a>
-            </div>
-
-            <div class="block">
-                <img class="imgListingSample" src="imgs/coffee_search_packaging.jpg" alt="coffee listing img"/>
-                  <p class="listingCaption">
-                    <strong> Light roast</strong> <br />
-                    Robusta beans from Columbia. Light and sweet with hints of berry. Paired well with cream.
-                  </p>
-                  <a class="listingButton">$4.50 CAD ></a>
-            </div>
-            <p class="id-cssSelector"><strong>CSS Selector:</strong> .listingContainer, .imgListingSample, .listingCaption</p>
-
-            <code>&lt;div class=&quot;container listingContainer&quot;&gt;&lt;img class=&quot;imgListingSample&quot; src=&quot;#&quot; alt=&quot;coffee listing img&quot;/&gt;
-              &lt;p class=&quot;listingCaption&quot;&gt;
-                &lt;strong&gt; Prod. Name&lt;/strong&gt; &lt;br /&gt;
-                Product description&lt;/p&gt;
-              &lt;a class=&quot;listingButton&quot;&gt;$3.50 CAD &gt;&lt;/a&gt;
-            &lt;/div&gt;</code>
-
-          </div>
-        </div>
-
-        <div class="block">
-          <h3>Website Grid Structure</h3>
+</section>
 
 
         <div class="block">

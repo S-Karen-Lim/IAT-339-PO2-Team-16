@@ -55,44 +55,6 @@ code{
     text-decoration: underline;
   }
 
-/* button stuff */
-  .nav-button{
-    display: inline-block;
-    border-bottom: 2px solid #d2e3ed;
-  }
-
-  .nav-button:hover, .nav-button:focus{
-    background-color: #dcf7df;
-    border-bottom: 2px solid #ffffff;
-  }
-
-  #resetInput{
-    display: inline-block;
-    border-bottom: 2px solid #a39491!important;
-    border:none;
-    -webkit-appearance:none;
-    box-shadow: none;
-  }
-
-    #resetInput:hover, #resetInput:focus{
-      background-color: #a39491;
-      border-bottom: 2px solid #ffffff;
-      color: white;
-    }
-
-  #submitInput{
-    display: inline-block;
-    border-bottom: 2px solid #dcf7df!important;
-    border: none;
-    -webkit-appearance:none;
-    box-shadow: none;
-  }
-
-    #submitInput:hover, #submitInput:focus{
-      background-color: #dcf7df;
-      border-bottom: 2px solid #ffffff;
-    }
-
 /* form stuff */
 
   label, input, textarea{
@@ -163,7 +125,7 @@ code{
     background-color: #edd7c8;
     padding: 1rem;
     text-align: center;
-    margin: inherit 0rem;
+    margin: 0.5rem 0.5rem;
   }
 
   /* colour swatches */
