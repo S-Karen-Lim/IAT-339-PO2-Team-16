@@ -29,12 +29,12 @@
   }
 
   .feature-coffee-block{
-    height: 30rem;
+    height: 35rem;
     max-width: 10rem;
     background-color: rgba(238,238,238, 1);
     display: inline-block;
     position: relative;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
   .feature-product-img-container{
@@ -44,7 +44,7 @@
 
   .catalogue-coffee-block{
     padding: 1rem;
-    min-height: 33rem;
+    min-height: 35rem;
     width: 13rem;
     display: inline-block;
     position: relative;
@@ -233,6 +233,7 @@
     .section-product-featured{
       margin-left: auto;
       margin-right: auto;
+      width: 100%;
     }
 
     .container-feature-coffee{
