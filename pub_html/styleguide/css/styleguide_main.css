@@ -17,7 +17,7 @@
 
 .styleguide-section{
   width: 80%;
-  margin: 2rem auto;
+  margin: 4rem auto;
 }
 
 .element-block{
@@ -28,6 +28,13 @@
 .code-block{
   min-width: 20rem;
   margin: 1rem auto;
+}
+
+h2{
+  border-bottom: 1px solid #fabe6f;
+}
+h3{
+  margin: 2rem 0rem 0rem 1rem;
 }
 
 .class-cssSelector{
@@ -47,6 +54,15 @@
   padding: 1rem;
   text-align: center;
   margin: 0.5rem 0.5rem;
+}
+
+/* Headings */
+.styleguide_h2{
+  border: none;
+}
+
+.styleguide_h3{
+  margin: 0rem;
 }
 
 /* colour swatches */
