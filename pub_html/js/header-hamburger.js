@@ -9,6 +9,7 @@ var centerNavToggle = document.querySelector("#nav-center-toggle");
 var navItems = document.querySelector("#main-nav-items");
 var sideNav = document.querySelector(".side-nav");
 var sideNavCloseButton = document.querySelector("#side-nav-close-button");
+var body = document.querySelector("body");
 
 var collapseWidth = 1100;
 
@@ -36,12 +37,13 @@ if (windowWidth < collapseWidth){
         sideNavCloseButton.classList.remove("hidden");
         sideNavCloseButton.setAttribute("aria-hidden", "false");
         sideNav.style.display = "block";
-
+				body.style.overflow = "hidden";
 			}
 			else{
 				console.log("#nav-items showing, now hiding.");
 				navItems.classList.add("hidden");
         navItems.setAttribute("aria-hidden", "true");
+				body.style.overflow = "auto";
 			}
 		})
 
@@ -51,7 +53,7 @@ if (windowWidth < collapseWidth){
         console.log("#nav-items hidden, now showing.");
         navItems.classList.remove("hidden");
         navItems.setAttribute("aria-hidden", "false");
-
+				body.style.overflow = "hidden";
       }
       else{
         console.log("#nav-items showing, now hiding.");
@@ -60,6 +62,7 @@ if (windowWidth < collapseWidth){
         sideNavCloseButton.classList.add("hidden");
         sideNavCloseButton.setAttribute("aria-hidden", "true");
         sideNav.style.display = "none";
+				body.style.overflow = "auto";
       }
     });
 

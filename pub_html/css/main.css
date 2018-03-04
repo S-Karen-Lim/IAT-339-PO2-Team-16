@@ -88,6 +88,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  z-index: -1;
 }
 
 #section-index .section-header a{
@@ -116,7 +117,6 @@ font-weight: 900;
 font-size: 3rem;
 text-align: center;
 margin-top: 4rem;
-position:relative;
 }
 
 .section-aboutustitle:after{
@@ -126,11 +126,10 @@ position:relative;
   margin-top: 2.5rem;
   content: '';
   position: absolute;
+  bottom: -20px;
   width: 20%; /*-+ 10*/
   left: 40%; /*-+5*/
-  bottom: -20px;
   border-bottom: 2px solid #c78b3c;
-
 }
 
 .aboutus-paragraph{
@@ -343,7 +342,6 @@ position:relative;
   font-size: 3rem;
   text-align: center;
   margin-top: 2.5rem;
-  position:relative;
 }
 
 .roasts_titles{

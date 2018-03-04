@@ -93,7 +93,7 @@
 
 .section-product-featured{
   align-content: space-around;
-  padding: 1rem 0rem 0rem 1.5rem;
+  padding: 1rem 0rem 0rem 1rem;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -180,6 +180,7 @@
 
   .contact-container{
     display:block;
+    width: 95%;
   }
 
   .cart-product-container table{
@@ -192,6 +193,15 @@
   .section-checkout{
     width: 90%!important;
   }
+
+  .section-contact-us .paragraph-block{
+    margin: 0;
+  }
+
+  .section-contact-us{
+    max-width: 90%;
+  }
+
 
 }
 

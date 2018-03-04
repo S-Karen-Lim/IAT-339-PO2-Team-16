@@ -8,8 +8,8 @@
 
 .section-footer{
   margin-bottom: 0rem;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   margin-top: 2rem;
   background-color: #222222;
 }
@@ -27,7 +27,7 @@
 
 .nav-footer a {
   color: #c78b3c;
-  font-size: 0.7rem;
+  font-size: 0.95rem;
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 1.3px;
