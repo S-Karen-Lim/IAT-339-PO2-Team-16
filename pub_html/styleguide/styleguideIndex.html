@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="../css/normalize.css" type="text/css" />
   <link rel="stylesheet" href="../css/main.css" type="text/css" />
   <link rel="stylesheet" href="../css/flexbox.css" type="text/css" />
     <link rel="stylesheet" href="css/styleguide_main.css" type="text/css" />
@@ -21,11 +21,17 @@
   <div class="container width-90 header-container">
     <div class="block">
       <nav class="nav-main container">
-          <div class="nav-left block">
+
+        <a href="javascript:void(0)" class="hidden hamburger-menu-container" aria-hidden="true"  id="nav-center-toggle" aria-controls="main-nav-items">
+          <img src="../img/hamburger.png" alt="icon for hamburger menu">
+        </a>
+
+          <div class="nav-left block" role="menu">
               <a href="../index.html"><img src="../img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
           </div>
-          <div class="nav-center block-2">
-            <nav>
+          <div class="nav-center block-2" role="menu">
+            <nav id="main-nav-items" class="side-nav">
+                <a href="javascript:void(0)" id="side-nav-close-button" class="hidden" aria-hidden="true">&times;</a>
               <a href="#grid-structure-section">Grid</a>
               <a href="#interactive-elements-section">Interactive</a>
               <a href="#navigation-section">Navigation</a>
@@ -41,10 +47,6 @@
 
 <div id="titleDiv">
   <h1>Customo Coffee: Style Guide</h1>
-  <!-- <p class="p-descriptionHead">
-    This page is a style guide for the fake company, Customo Coffee. <br />
-    Created by Andersen Li, John Latay, and Karen Lim.
-  </p> -->
 </div>
 
 <section class="styleguide-section" id="grid-structure-section">
@@ -404,6 +406,7 @@
           <a href="#" class="default-button">Add to Cart</a>
         </div>
     </section>
+
 </section>
 
 <section class="styleguide-section" id="other-brand-elements">
@@ -420,18 +423,6 @@
     <code>&lt;div class=&quot;container&quot;&gt;
       &lt;div class=&quot;block colourBlock grey&quot;&gt;Light beige: #fabe6f&lt;/div&gt;&lt;/div&gt;</code>
 </section>
-
-  <footer class="section-footer">
-      <div class="container width-70 footer-container">
-        <div class="block" role="menu">
-          <nav class="nav-footer">
-                <a href="styleguide/styleguideIndex.html">Style Guide</a><span> | </span>
-                <a href="references.html">References</a><span> | </span>
-                <a href="https://github.com/S-Karen-Lim/IAT-339-PO2-Team-16">Git Repository</a>
-          </nav>
-        </div>
-      </div>
-</footer>
 </body>
 
 </html>
