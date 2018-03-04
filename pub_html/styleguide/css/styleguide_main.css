@@ -67,6 +67,38 @@ h3{
   margin: 0rem;
 }
 
+/* header */
+#nav-center-toggle2 img{
+  width: 1.4rem;
+  height: auto;
+}
+
+@media screen and (min-width: 1100px){
+  #nav-center-toggle2{
+    display: none!important;
+  }
+
+  #nav-center-toggle2 .hidden{
+    display: inline-block!important;
+  }
+
+  .side-nav #side-nav-close-button2{
+    display: none;
+  }
+
+  #main-nav-items2{
+    display: block!important;
+    visibility: visible!important;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  #nav-center-toggle2{
+    float: left;
+    display: inline;
+  }
+}
+
 /* colour swatches */
 .colourBlock{
   width: 15%;
