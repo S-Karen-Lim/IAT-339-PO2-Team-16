@@ -6,10 +6,10 @@
   <link rel="stylesheet" href="../css/normalize.css" type="text/css" />
   <link rel="stylesheet" href="../css/main.css" type="text/css" />
   <link rel="stylesheet" href="../css/flexbox.css" type="text/css" />
-    <link rel="stylesheet" href="css/styleguide_main.css" type="text/css" />
     <link rel="stylesheet" href="../css/productpages.css" type="text/css" />
   <link rel="stylesheet" href="../css/header.css" type="text/css" />
   <link rel="stylesheet" href="../css/footer.css" type="text/css" />
+  <link rel="stylesheet" href="css/styleguide_main.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <title>Styleguide | Customo Coffee</title>
 </head>
@@ -17,7 +17,7 @@
 
 <body>
 
-<header class="section-header">
+<header class="section-header section-header2">
   <div class="container width-90 header-container">
     <div class="block">
       <nav class="nav-main container">
@@ -228,33 +228,78 @@
     <h3>Header</h3>
     <div class="container">
       <div class="block element-block">
-          <header class="section-header">
-            <div class="container width-90 header-container">
-              <div class="block">
-                <nav class="nav-main container">
-                    <div class="nav-left block">
-                        <a href="#"><img src="../img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
-                    </div>
-                    <div class="nav-center block-2">
-                      <nav>
-                        <a href="#">one</a>
-                        <a href="#">two</a>
-                        <a href="#">three</a>
-                      </nav>
-                    </div>
-                    <div class="nav-right block">
-                        <a href="#"><img src="../img/cart_icon.png" alt="an icon for my cart" class="nav-my-cart"/>Cart</a>
-                    </div>
-                </nav>
-              </div>
+        <header class="section-header">
+          <div class="container width-90 header-container">
+            <div class="block">
+              <nav class="nav-main container">
+
+                <a href="javascript:void(0)" class="hidden hamburger-menu-container" aria-hidden="true"  id="nav-center-toggle" aria-controls="main-nav-items">
+                  <img src="../img/hamburger.png" alt="icon for hamburger menu">
+                </a>
+
+                  <div class="nav-left block" role="menu">
+                      <a href="../index.html"><img src="../img/customoLogo.png" class="nav-home" alt="Customo Coffee Home"/></a>
+                  </div>
+                  <div class="nav-center block-2" role="menu">
+                    <nav id="main-nav-items" class="side-nav">
+                        <a href="javascript:void(0)" id="side-nav-close-button" class="hidden" aria-hidden="true">&times;</a>
+                      <a href="#">one</a>
+                      <a href="#">two</a>
+                      <a href="#">three</a>
+                    </nav>
+                  </div>
+
+                  <div class="nav-right block" role="menu">
+                      <a href="my-cart.html"><img src="../img/cart_icon.png" alt="a cart icon" class="nav-my-cart"/>
+                        <span class="mycart-text">Cart</span></a>
+                  </div>
+              </nav>
             </div>
-          </header>
+          </div>
+        </header>
       </div>
       <div class="block code-block">
         <p><strong>CSS Selectors:</strong></p>
           <p class="class-cssSelector">
             .section-header .header-container .nav-main .nav-left .nav-home .nav-center .nav-right .nav-my-cart
           </p>
+        <p class="id-cssSelector">
+          #nav-center-toggle #side-nav-close-button
+        </p>
+          <code>
+
+            &lt;header class=&quot;section-header&quot;&gt;<br />
+              &lt;div class=&quot;container width-90 header-container&quot;&gt;<br />
+                &lt;div class=&quot;block&quot;&gt;<br />
+                  &lt;nav class=&quot;nav-main container&quot;&gt;<br />
+
+                    &lt;a href=&quot;javascript:void(0)&quot; class=&quot;hidden hamburger-menu-container&quot; aria-hidden=&quot;true&quot;  id=&quot;nav-center-toggle&quot; aria-controls=&quot;main-nav-items&quot;&gt;<br />
+                      &lt;img src=&quot;../img/hamburger.png&quot; alt=&quot;icon for hamburger menu&quot;&gt;<br />
+                    &lt;/a&gt;<br />
+
+                      &lt;div class=&quot;nav-left block&quot; role=&quot;menu&quot;&gt;<br />
+                          &lt;a href=&quot;../index.html&quot;&gt;&lt;img src=&quot;../img/customoLogo.png&quot; class=&quot;nav-home&quot; alt=&quot;Customo Coffee Home&quot;/&gt;&lt;/a&gt;<br />
+                      &lt;/div&gt;<br />
+                      &lt;div class=&quot;nav-center block-2&quot; role=&quot;menu&quot;&gt;<br />
+                        &lt;nav id=&quot;main-nav-items&quot; class=&quot;side-nav&quot;&gt;<br />
+                            &lt;a href=&quot;javascript:void(0)&quot; id=&quot;side-nav-close-button&quot; class=&quot;hidden&quot; aria-hidden=&quot;true&quot;&gt;&times;&lt;/a&gt;<br />
+                          &lt;a href=&quot;#&quot;&gt;one&lt;/a&gt;<br />
+                          &lt;a href=&quot;#&quot;&gt;two&lt;/a&gt;<br />
+                          &lt;a href=&quot;#&quot;&gt;three&lt;/a&gt;<br />
+                        &lt;/nav&gt;<br />
+                      &lt;/div&gt;<br />
+                      &lt;div class=&quot;nav-right block&quot; role=&quot;menu&quot;&gt;<br />
+                          &lt;a href=&quot;my-cart.html&quot;&gt;&lt;img src=&quot;img/cart_icon.png&quot; alt=&quot;a cart icon&quot; class=&quot;nav-my-cart&quot;/&gt;<br />
+                            &lt;span class=&quot;mycart-text&quot;&gt;Cart&lt;/span&gt;&lt;/a&gt;<br />
+                      &lt;/div&gt;<br />
+                  &lt;/nav&gt;<br />
+                &lt;/div&gt;<br />
+              &lt;/div&gt;<br />
+            &lt;/header&gt;<br />
+
+
+
+          </code>
       </div>
     </div>
 
@@ -469,9 +514,6 @@
             <a href="#" class="default-button">Add to Cart</a>
           </div>
       </section>
-     </div>
-     <div class="block code-block">
-         ...
      </div>
   </div>
 </section>

@@ -1,4 +1,4 @@
-.section-header{
+.section-header2{
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -16,7 +16,7 @@
 }
 
 .styleguide-section{
-  width: 80%;
+  width: 90%;
   margin: 4rem auto;
 }
 
@@ -28,6 +28,8 @@
 .code-block{
   min-width: 20rem;
   margin: 1rem auto;
+  padding: 1rem 1rem;
+  background-color: white;
 }
 
 h2{
@@ -37,11 +39,11 @@ h3{
   margin: 2rem 0rem 0rem 1rem;
 }
 
-.class-cssSelector{
+.class-cssSelector p{
   font-colour: rgb(239, 122, 133);
 }
 
-.id-cssSelector{
+.id-cssSelector p{
   colour: blue;
 }
 
